@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medical Terminology for Dentistry · Lecture 2 — Word Roots, Prefixes & Suffixes | FullMark</title>
+<style>
+:root{
+  --bg:#07171a;
+  --panel-2:rgba(255,255,255,0.035);
+  --line:rgba(255,255,255,0.16);
+  --teal:#15b8a6;--teal2:#0d8f80;
+  --teal-2:#5eead4;
+  --emerald:#34d399;--emerald2:#1f9c6e;
+  --amber:#e8b34c;--amber2:#c68010;
+  --rose:#f0645c;--rose2:#c23a33;
+  --violet:#a78bfa;--violet2:#7c5cd6;
+  --sky:#38bdf8;--sky2:#0f8fd6;
+  --ink:#eaf6f3;--ink-dim:#9bc2bd;--ink-faint:#5d8782;
+  --r1:18px;--r2:12px;--r3:8px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{position:relative;overflow-x:hidden;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;min-height:100vh}
+body::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%;z-index:0;pointer-events:none;
+  background:
+    radial-gradient(ellipse 900px 600px at 85% -5%, rgba(21,184,166,0.16), transparent 60%),
+    radial-gradient(ellipse 700px 500px at 5% 110%, rgba(52,211,153,0.10), transparent 60%),
+    linear-gradient(180deg, #061417 0%, #07171a 50%, #081c20 100%);
+}
+
+/* ===== TOPBAR ===== */
+.topbar{position:relative;z-index:2;background:#0a1f23;border-bottom:1px solid var(--line)}
+.topbar-inner{max-width:980px;margin:0 auto;padding:14px 18px;display:flex;align-items:center}
+.brand{display:flex;align-items:center;gap:10px;width:100%}
+.brand-mark{width:34px;height:34px;border-radius:9px;background:linear-gradient(145deg,var(--teal),var(--emerald));display:flex;align-items:center;justify-content:center;font-size:17px;flex-shrink:0;box-shadow:0 4px 14px rgba(21,184,166,.35)}
+.brand-text h1{font-family:Georgia,'Times New Roman',serif;font-weight:600;font-size:1.05rem;color:var(--ink)}
+.brand-text p{font-size:.68rem;color:var(--ink-faint);letter-spacing:1.5px;text-transform:uppercase;margin-top:1px}
+.mid-badge{margin-left:auto;flex-shrink:0;font-family:'SF Mono','Courier New',monospace;font-size:.6rem;letter-spacing:1px;text-transform:uppercase;color:#04201c;background:linear-gradient(135deg,var(--teal),var(--emerald));padding:5px 10px;border-radius:20px;font-weight:700}
+
+/* ===== BRAND STAGE ===== */
+.brand-stage{position:relative;height:150px;display:flex;flex-direction:column;align-items:center;justify-content:center;margin:6px 0 -4px;text-align:center}
+.brand-ring{position:absolute;width:140px;height:140px;border-radius:50%;border:1px solid rgba(21,184,166,.25);animation:ringPulse 3.6s ease-in-out infinite}
+.brand-ring.r2{width:182px;height:182px;border-color:rgba(52,211,153,.16);animation-delay:.6s}
+.brand-orbit{position:absolute;width:196px;height:196px;animation:spin 9s linear infinite}
+.brand-orbit.o2{width:140px;height:140px;animation:spin 6.5s linear infinite reverse}
+.brand-dot{position:absolute;top:0;left:50%;width:6px;height:6px;margin-left:-3px;border-radius:50%;background:var(--teal-2);box-shadow:0 0 9px 2px rgba(94,234,212,.75)}
+.brand-dot.d2{width:4px;height:4px;margin-left:-2px;background:var(--emerald);box-shadow:0 0 7px 2px rgba(52,211,153,.7)}
+.brand-glowbg{position:absolute;top:50%;left:50%;width:120px;height:120px;border-radius:50%;background:radial-gradient(circle, rgba(21,184,166,.3), transparent 70%);transform:translate(-50%,-50%);animation:glowPulse 3.2s ease-in-out infinite}
+.brand-logo{position:relative;z-index:2;font-family:Georgia,'Times New Roman',serif;font-size:2.1rem;font-weight:700;letter-spacing:.5px;display:flex}
+.brand-logo span{display:inline-block;opacity:0;transform:translateY(16px);background:linear-gradient(120deg,var(--teal-2),var(--emerald),var(--ink),var(--teal-2));background-size:250% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:letterIn .55s ease forwards,shimmer 3.5s linear infinite 1.2s}
+.brand-tag{position:relative;z-index:2;margin-top:8px;font-size:.68rem;letter-spacing:3px;text-transform:uppercase;color:var(--ink-faint);opacity:0;animation:tagIn .6s ease forwards .85s}
+@keyframes letterIn{to{opacity:1;transform:translateY(0)}}
+@keyframes tagIn{to{opacity:1}}
+@keyframes shimmer{0%{background-position:0% center}100%{background-position:250% center}}
+@keyframes ringPulse{0%,100%{transform:scale(1);opacity:.45}50%{transform:scale(1.06);opacity:.9}}
+@keyframes glowPulse{0%,100%{opacity:.4;transform:translate(-50%,-50%) scale(1)}50%{opacity:.85;transform:translate(-50%,-50%) scale(1.15)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ===== HERO ===== */
+.page-hero{padding:18px 0 14px;text-align:center}
+.page-hero h1{font-family:Georgia,'Times New Roman',serif;font-size:1.7rem;font-weight:600;color:var(--ink)}
+.page-hero .sub-ar{font-size:.88rem;color:var(--ink-dim);margin-top:6px;direction:rtl}
+
+/* ===== INFO BANNERS ===== */
+.gift-banner{background:linear-gradient(135deg,rgba(21,184,166,.12),rgba(52,211,153,.06));border:1px solid rgba(21,184,166,.3);border-radius:var(--r1);padding:16px 18px;margin:16px 0;direction:rtl;text-align:right;font-size:.86rem;color:var(--ink-dim);line-height:1.85}
+.gift-banner .title{font-family:Georgia,'Times New Roman',serif;font-size:1.02rem;color:var(--ink);font-weight:700;margin-bottom:6px}
+.gift-banner b{color:var(--teal-2)}
+.alert-banner{background:rgba(232,179,76,.09);border:1px solid rgba(232,179,76,.32);border-radius:var(--r1);padding:16px 18px;margin:0 0 16px;direction:rtl;text-align:right;font-size:.86rem;color:#f3d9a3;line-height:1.85}
+.alert-banner .title{font-family:Georgia,'Times New Roman',serif;font-size:1rem;color:var(--amber);font-weight:700;margin-bottom:6px}
+.alert-banner b{color:#fff}
+
+/* ===== LECTURE NAV ===== */
+.nav{position:relative;z-index:2;background:#0d2226;display:flex;justify-content:center;flex-wrap:wrap;gap:8px;padding:12px 14px;border-bottom:1px solid var(--line)}
+.lec-subnav{display:flex;gap:8px;margin:0 0 18px;flex-wrap:wrap}
+
+/* ===== LECTURE TABS (top-level, distinct from section sub-nav) ===== */
+.lecture-tab-bar{position:relative;z-index:2;display:flex;background:#0a1f23;border-bottom:1px solid var(--line)}
+.lecture-tab-bar-inner{max-width:980px;margin:0 auto;display:flex;width:100%}
+.lecture-tab{flex:1;text-align:center;padding:16px 14px;background:transparent;border:none;border-bottom:3px solid transparent;color:var(--ink-faint);font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:.95rem;cursor:pointer;transition:.2s;font-family:inherit}
+.lecture-tab .lt-num{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:6px;background:rgba(255,255,255,.08);color:var(--ink-dim);font-size:.7rem;font-weight:900;margin-right:6px;vertical-align:middle}
+.lecture-tab:hover{color:var(--ink-dim);background:rgba(255,255,255,.02)}
+.lecture-tab.active{color:var(--teal-2);border-bottom-color:var(--teal);background:rgba(21,184,166,.06)}
+.lecture-tab.active .lt-num{background:linear-gradient(135deg,var(--teal),var(--emerald));color:#04201c}
+@media(max-width:480px){.lecture-tab{font-size:.74rem;padding:13px 6px}.lecture-tab .lt-num{display:block;margin:0 auto 4px}}
+.lsn-btn{position:relative;z-index:2;opacity:1;visibility:visible;flex:1;min-width:100px;padding:10px 12px;border-radius:10px;border:1px solid #2a5a56;background:#163a38;color:#c8e8e3;font-weight:700;font-size:.78rem;cursor:pointer;transition:.2s;font-family:inherit}
+.lsn-btn:hover{border-color:var(--teal)}
+.lsn-btn.active{background:#15b8a6;border-color:transparent;color:#04201c}
+.lec-view{animation:fadeIn .2s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+.wrap{position:relative;z-index:2;max-width:980px;margin:0 auto;padding:20px 18px 40px}
+
+/* ===== LECTURE DIVIDER ===== */
+.lec-divider{background:linear-gradient(135deg,rgba(21,184,166,.14),rgba(52,211,153,.05));border-radius:var(--r1);padding:20px 24px;margin:0 0 20px;border-left:4px solid var(--teal);display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.lec-num{background:linear-gradient(145deg,var(--teal),var(--emerald));color:#04201c;width:44px;height:44px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-family:Georgia,serif;font-size:1.3rem;font-weight:900;flex-shrink:0}
+.lec-info h2{font-family:Georgia,'Times New Roman',serif;font-size:1.18rem;color:var(--ink);font-weight:700}
+.lec-info p{font-size:.78rem;color:var(--ink-faint);margin-top:3px}
+
+/* ===== CONTENT CARDS ===== */
+.card{background:var(--panel-2);border-radius:var(--r1);padding:20px;margin-bottom:14px;border:1px solid var(--line);border-left:3px solid var(--teal)}
+.ctitle{font-family:Georgia,'Times New Roman',serif;font-size:1rem;font-weight:600;color:var(--teal-2);margin-bottom:12px}
+.tbl{width:100%;border-collapse:collapse;font-size:.83rem;margin-top:8px}
+.tbl thead tr{background:rgba(21,184,166,.12)}
+.tbl th{padding:9px 8px;font-weight:700;text-align:center;color:var(--teal-2);font-size:.72rem;text-transform:uppercase;letter-spacing:.4px}
+.tbl td{padding:9px 8px;border-bottom:1px solid rgba(255,255,255,0.18);vertical-align:top;text-align:center;color:var(--ink-dim)}
+.tbl td:first-child{font-weight:700;white-space:nowrap;color:var(--teal-2)}
+.tbl tbody tr:last-child td{border-bottom:none}
+.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.table-wrap .tbl{min-width:460px}
+.hl{border-radius:var(--r3);padding:12px 15px;margin:10px 0;font-size:.85rem;background:rgba(255,255,255,.03);border-left:3px solid var(--teal);color:var(--ink-dim)}
+.hl.amber{background:rgba(232,179,76,.08);border-color:var(--amber);color:#f3d9a3}
+.hl.teal{background:rgba(21,184,166,.08);border-color:var(--teal);color:var(--ink-dim)}
+.hl.rose{background:rgba(240,100,92,.08);border-color:var(--rose);color:#fbd0cd}
+.hl.green{background:rgba(52,211,153,.08);border-color:var(--emerald);color:#bdf5dd}
+.hl.violet{background:rgba(167,139,250,.08);border-color:var(--violet);color:#ddd6fe}
+.hl.navy{background:rgba(255,255,255,.04);border-color:var(--ink-faint);color:var(--ink-dim)}
+.hl.sky{background:rgba(56,189,248,.08);border-color:var(--sky);color:#bae6fd}
+.hl strong{color:var(--ink)}
+.steps{list-style:none;padding:0}
+.steps li{display:flex;gap:11px;align-items:flex-start;padding:9px 0;border-bottom:1px dashed var(--line);font-size:.85rem;color:var(--ink-dim)}
+.steps li:last-child{border:none}
+.steps li strong,.steps li b{color:var(--ink)}
+.sn{background:linear-gradient(135deg,var(--teal),var(--emerald));color:#04201c;width:24px;height:24px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:800;flex-shrink:0;margin-top:2px}
+
+/* ===== GLOSSARY / WORD PARTS ===== */
+.recall-sheet{background:linear-gradient(160deg,rgba(232,179,76,.07),rgba(21,184,166,.05));border:1.5px solid rgba(232,179,76,.35);border-radius:var(--r1);padding:20px}
+.recall-sheet h3{font-family:Georgia,'Times New Roman',serif;font-size:1.05rem;color:var(--amber);margin-bottom:4px}
+.recall-sheet .sub{font-size:.75rem;color:var(--ink-faint);margin-bottom:16px}
+.recall-block{margin-bottom:16px;padding-bottom:14px;border-bottom:1px dashed var(--line)}
+.recall-block:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.recall-block .rb-title{font-weight:800;color:var(--teal-2);font-size:.82rem;margin-bottom:6px;text-transform:uppercase;letter-spacing:.4px}
+.recall-block .rb-text{font-size:.84rem;color:var(--ink-dim);line-height:1.85}
+.recall-block .rb-text strong{color:var(--ink)}
+.recall-block .rb-text em{color:var(--rose);font-style:normal;font-weight:700}
+.glossary-section{background:var(--panel-2);border-radius:var(--r1);padding:20px;margin-top:16px;border:1px solid var(--line)}
+.glossary-section h3{font-family:Georgia,'Times New Roman',serif;font-size:1.05rem;color:var(--sky);margin-bottom:6px}
+.glossary-section .sub{font-size:.78rem;color:var(--ink-faint);margin-bottom:14px}
+
+/* ===== QUIZ ===== */
+.quiz-section{background:var(--panel-2);border-radius:var(--r1);padding:22px;margin-top:0;border:1px solid var(--line)}
+.quiz-section h3{font-family:Georgia,'Times New Roman',serif;font-size:1.05rem;color:var(--violet);margin-bottom:6px}
+.quiz-meta{font-size:.75rem;color:var(--ink-faint);margin-bottom:16px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.quiz-meta span{background:linear-gradient(135deg,var(--violet),var(--violet2));color:#fff;padding:2px 10px;border-radius:20px;font-weight:700;font-size:.68rem}
+.quiz-controls{display:flex;gap:10px;margin-bottom:18px;flex-wrap:wrap;align-items:center}
+.quiz-controls select{border:1px solid var(--line);border-radius:8px;padding:7px 12px;font-family:inherit;font-size:.78rem;background:var(--panel-2);color:var(--ink);cursor:pointer}
+.btn-start{background:linear-gradient(135deg,var(--teal),var(--emerald));color:#04201c;padding:9px 20px;border:none;border-radius:30px;font-family:inherit;font-size:.8rem;font-weight:700;cursor:pointer;box-shadow:0 6px 16px rgba(21,184,166,.25)}
+.quiz-progress{margin-bottom:16px}
+.progress-bar-wrap{background:rgba(255,255,255,.08);border-radius:99px;height:6px;overflow:hidden;margin-bottom:6px}
+.progress-bar-fill{height:100%;background:linear-gradient(90deg,var(--teal),var(--emerald));border-radius:99px;transition:width .4s ease}
+.progress-text{font-size:.72rem;color:var(--ink-faint);font-weight:600}
+.qcard{background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:var(--r2);padding:18px}
+.qcard .qnum{font-size:.7rem;font-weight:800;color:var(--violet);margin-bottom:8px;text-transform:uppercase;letter-spacing:1px}
+.qcard .qtext{font-weight:600;font-size:.92rem;margin-bottom:15px;line-height:1.6;color:var(--ink)}
+.qopts{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+@media(max-width:500px){.qopts{grid-template-columns:1fr}}
+.qopt{padding:10px 14px;border-radius:var(--r2);border:1px solid var(--line);font-size:.82rem;background:rgba(255,255,255,.02);font-weight:500;cursor:pointer;transition:all .15s;text-align:left;font-family:inherit;line-height:1.5;color:var(--ink-dim)}
+.qopt:hover:not(.disabled){border-color:var(--teal);background:rgba(21,184,166,.08)}
+.qopt.correct{border-color:var(--emerald);background:rgba(52,211,153,.13);color:#bdf5dd;font-weight:700}
+.qopt.correct::after{content:" ✓";font-weight:900}
+.qopt.wrong{border-color:var(--rose);background:rgba(240,100,92,.13);color:#fbd0cd;font-weight:700}
+.qopt.wrong::after{content:" ✗";font-weight:900}
+.qopt.disabled{cursor:not-allowed;opacity:.85}
+.explanation{margin-top:14px;padding:12px 15px;background:rgba(232,179,76,.08);border-left:3px solid var(--amber);border-radius:var(--r3);font-size:.83rem;line-height:1.8;color:#f3d9a3;display:none}
+.explanation.show{display:block}
+.quiz-score{text-align:center;padding:26px 20px;display:none}
+.quiz-score.show{display:block}
+.score-circle{width:104px;height:104px;border-radius:50%;margin:0 auto 16px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:Georgia,serif;border:4px solid}
+.score-num{font-size:2.1rem;font-weight:900;line-height:1}
+.score-denom{font-size:.72rem;font-weight:600;opacity:.85}
+.score-msg{font-size:.98rem;font-weight:700;margin-bottom:6px;color:var(--ink)}
+.score-sub{font-size:.8rem;color:var(--ink-faint)}
+
+/* ===== TELEGRAM / FINAL PROMO ===== */
+.promo-card{margin-top:10px;background:linear-gradient(145deg,rgba(21,184,166,.1),rgba(52,211,153,.04));border:1px solid rgba(21,184,166,.28);border-radius:var(--r1);padding:20px;direction:rtl;text-align:right}
+.promo-card .title{font-family:Georgia,'Times New Roman',serif;font-size:1.1rem;color:var(--ink);font-weight:700;margin-bottom:8px}
+.promo-card p{font-size:.86rem;color:var(--ink-dim);line-height:1.8;margin-bottom:10px}
+.promo-list{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:12px 0}
+.promo-item{background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:.78rem;color:var(--ink-dim)}
+.promo-item b{display:block;color:var(--teal-2);font-family:Georgia,serif;font-size:.93rem;margin-bottom:2px}
+.promo-btn{display:inline-block;margin-top:8px;background:linear-gradient(135deg,var(--teal),var(--emerald));color:#04201c;font-weight:700;text-decoration:none;padding:11px 22px;border-radius:30px;font-size:.85rem}
+
+.ftr{text-align:center;padding:24px 20px;font-size:.78rem;color:var(--ink-faint);margin-top:30px;border-top:1px solid var(--line)}
+.ftr strong{color:var(--teal-2);font-family:Georgia,serif}
+
+/* ===== MIND MAP (custom, teal identity) ===== */
+.mindmap-wrap{padding:8px 0}
+.mm-center{background:linear-gradient(135deg,var(--teal),var(--emerald));color:#04201c;font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:1.05rem;text-align:center;padding:16px;border-radius:var(--r1);margin-bottom:18px;box-shadow:0 8px 22px rgba(21,184,166,.25)}
+.mm-branches{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.mm-branch{background:var(--panel-2);border:1px solid var(--line);border-radius:var(--r2);padding:14px 16px;border-top:3px solid var(--teal)}
+.mm-branch.b2{border-top-color:var(--amber)}
+.mm-branch.b3{border-top-color:var(--rose)}
+.mm-branch.b4{border-top-color:var(--violet)}
+.mm-branch.b5{border-top-color:var(--sky)}
+.mm-branch-title{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:.92rem;color:var(--ink);margin-bottom:8px}
+.mm-leaf{font-size:.78rem;color:var(--ink-dim);padding:5px 0;border-bottom:1px dashed var(--line)}
+.mm-leaf:last-child{border-bottom:none}
+
+/* ===== KEY POINTS (custom, teal identity) ===== */
+.kp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.kp-card{background:var(--panel-2);border:1px solid var(--line);border-left:3px solid var(--teal);border-radius:var(--r2);padding:14px 16px;position:relative}
+.kp-card.amber{border-left-color:var(--amber)}
+.kp-card.rose{border-left-color:var(--rose)}
+.kp-card.violet{border-left-color:var(--violet)}
+.kp-card.sky{border-left-color:var(--sky)}
+.kp-num{position:absolute;top:10px;right:12px;font-family:Georgia,serif;font-weight:800;font-size:.75rem;color:var(--ink-faint)}
+.kp-badge{display:inline-block;font-size:.66rem;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:var(--teal-2);margin-bottom:6px}
+.kp-text{font-size:.82rem;color:var(--ink-dim);line-height:1.7}
+.kp-text strong{color:var(--ink)}
+.kp-arabic{font-size:.72rem;color:var(--ink-faint);margin-top:7px;font-style:italic;direction:rtl;text-align:right;unicode-bidi:embed}
+
+/* ===== PRINT BUTTON (screen only) ===== */
+.print-btn{
+  flex-shrink:0;font-family:'SF Mono','Courier New',monospace;font-size:.62rem;letter-spacing:1px;text-transform:uppercase;
+  color:var(--ink-dim);background:var(--panel-2);border:1px solid var(--line);padding:6px 12px;border-radius:20px;cursor:pointer;
+}
+.print-btn:hover{border-color:rgba(21,184,166,.4);color:var(--teal-2);}
+
+/* ===== WATERMARK + PRINT AREA (hidden on screen) ===== */
+.print-watermark{display:none;}
+#printArea{display:none;}
+
+@media print{
+  @page{ margin:15mm 14mm; background:#fff; }
+  html{background:#ffffff !important; background-color:#ffffff !important;}
+  body{
+    background:#ffffff !important; background-color:#ffffff !important;
+    background-image:none !important;
+    color:#1a1a1a !important; font-size:14.5px;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+    text-rendering:optimizeLegibility;
+    -webkit-font-smoothing:antialiased;
+  }
+  body::before{display:none !important; content:none !important; background:none !important;}
+  .topbar, .lecture-tab-bar, .nav, .wrap, .ftr, .print-btn{display:none !important;}
+  #printArea{display:block !important; max-width:none; background:#ffffff !important; color:#1a1a1a; line-height:1.55; position:relative; z-index:1;}
+
+  /* logo watermark — fixed so it repeats on every printed page, sits behind the text */
+  .print-watermark{
+    display:block; position:fixed; top:50%; left:50%;
+    width:340px; max-width:none;
+    transform:translate(-50%,-50%) rotate(-18deg);
+    opacity:.14; z-index:0; pointer-events:none;
+  }
+  .print-watermark img{
+    width:100%; display:block;
+    image-rendering:-webkit-optimize-contrast;
+    image-rendering:crisp-edges;
+  }
+
+  .lec-divider{background:none !important; border:none !important; border-left:3px solid #0f766e !important; border-radius:0 !important; padding:2px 0 2px 12px !important; margin:18px 0 12px !important; page-break-after:avoid !important; break-after:avoid !important;}
+  .lec-num{display:none !important;}
+  .lec-info h2{color:#0f766e !important; font-size:1.1rem !important; font-weight:700 !important;}
+  .lec-info p{color:#555 !important; font-size:.8rem !important;}
+  .print-header{text-align:center; margin-bottom:16px; padding-bottom:12px; border-bottom:2px solid #0f766e;}
+  .print-brand{font-family:'SF Mono','Courier New',monospace; font-size:.72rem; letter-spacing:2px; text-transform:uppercase; color:#0f766e; margin-bottom:3px;}
+  .print-header h1{font-family:Georgia,'Times New Roman',serif; font-size:1.4rem; color:#111;}
+  .print-sub{font-family:'Segoe UI',Tahoma,Arial,sans-serif; direction:rtl; color:#444; font-size:.88rem; margin-top:2px;}
+
+  .print-section{margin-bottom:18px;}
+  .print-h2{font-family:Georgia,'Times New Roman',serif; font-size:1.12rem; color:#0f766e; border-bottom:1px solid #ccc; padding-bottom:6px; margin-bottom:12px; page-break-after:avoid; break-after:avoid;}
+
+  /* content cards */
+  .card{
+    background:none !important; border:none !important; border-left:2px solid #0f766e !important;
+    border-radius:0 !important; padding:0 0 10px 10px !important; margin-bottom:12px !important;
+    border-bottom:1px solid #eee !important;
+  }
+  .card:last-child{border-bottom:none !important;}
+  .ctitle{color:#0f766e !important; font-size:1rem; margin-bottom:7px; page-break-after:avoid; break-after:avoid;}
+  .card p{color:#1a1a1a !important; font-size:.92rem;}
+  .card strong, .card b{color:#111 !important;}
+  .steps{padding:0 !important;}
+  .steps li{color:#1a1a1a !important; font-size:.9rem; border-bottom:1px dashed #eee !important;}
+  .steps li strong, .steps li b{color:#111 !important;}
+  .sn{background:#e6fbf7 !important; color:#0f766e !important;}
+
+  /* highlight callouts */
+  .hl{background:#f7f7f7 !important; border-left-color:#999 !important; color:#1a1a1a !important; font-size:.9rem; page-break-inside:avoid; break-inside:avoid;}
+  .hl strong{color:#111 !important;}
+  .hl.amber{background:#fdf6e3 !important; border-color:#c68010 !important; color:#5c4711 !important;}
+  .hl.teal{background:#eafaf7 !important; border-color:#0f766e !important; color:#134e4a !important;}
+  .hl.rose{background:#fdecea !important; border-color:#c23a33 !important; color:#7a231e !important;}
+  .hl.green{background:#eafbf1 !important; border-color:#1f9c6e !important; color:#0d4a34 !important;}
+  .hl.violet{background:#f2effc !important; border-color:#7c5cd6 !important; color:#3f2d80 !important;}
+  .hl.navy{background:#f2f2f2 !important; border-color:#666 !important; color:#333 !important;}
+  .hl.sky{background:#eaf7fd !important; border-color:#0f8fd6 !important; color:#0c4a6e !important;}
+
+  /* tables — header repeats every page, rows never split */
+  .tbl{font-size:.86rem; width:100%;}
+  .tbl thead{display:table-header-group;}
+  .tbl tr{page-break-inside:avoid; break-inside:avoid;}
+  .tbl th{background:#e6fbf7 !important; color:#0f766e !important; padding:6px 8px;}
+  .tbl td{color:#333 !important; border-bottom:1px solid #ddd !important; padding:6px 8px;}
+  .tbl td:first-child{color:#0f766e !important;}
+  .table-wrap{overflow:visible;}
+  .table-wrap .tbl{min-width:0;}
+
+  /* glossary / mnemonics sections */
+  .glossary-section{background:none !important; border:none !important; border-radius:0 !important; padding:0 !important; margin-top:16px !important;}
+  .glossary-section h3{color:#0f766e !important; font-size:1.05rem; page-break-after:avoid; break-after:avoid;}
+  .glossary-section .sub{color:#666 !important; font-size:.85rem;}
+
+  /* mind map */
+  .mm-center{background:#0f766e !important; color:#fff !important; box-shadow:none;}
+  .mm-branches{display:block !important;}
+  .mm-branch{background:none !important; border:none !important; border-top:none !important; border-bottom:1px solid #eee !important; border-radius:0 !important; padding:8px 0 !important; margin-bottom:8px; page-break-inside:avoid; break-inside:avoid;}
+  .mm-branch-title{color:#0f766e !important; font-size:.95rem;}
+  .mm-leaf{color:#1a1a1a !important; font-size:.85rem; border-bottom:1px dashed #eee !important;}
+
+  /* key points */
+  .kp-grid{display:block !important;}
+  .kp-card{background:none !important; border:none !important; border-left:2px solid #0f766e !important; border-radius:0 !important; padding:6px 0 6px 10px !important; margin-bottom:8px; page-break-inside:avoid; break-inside:avoid;}
+  .kp-card.amber{border-left-color:#c68010 !important;}
+  .kp-card.rose{border-left-color:#c23a33 !important;}
+  .kp-card.violet{border-left-color:#7c5cd6 !important;}
+  .kp-card.sky{border-left-color:#0f8fd6 !important;}
+  .kp-num{color:#999 !important; position:static; display:inline-block; margin-left:6px;}
+  .kp-badge{color:#0f766e !important; font-size:.72rem;}
+  .kp-text{color:#1a1a1a !important; font-size:.9rem;}
+  .kp-text strong{color:#111 !important;}
+  .kp-arabic{color:#666 !important; font-size:.8rem;}
+
+  /* quiz answer key (built specially for print) */
+  .print-mcq-item{margin-bottom:9px; page-break-inside:avoid; break-inside:avoid; font-size:.9rem;}
+  .print-q{font-weight:700; color:#111; margin-bottom:3px;}
+  .print-opts{padding-right:12px;}
+  .print-opt{color:#333; margin-bottom:1px;}
+  .print-opt.print-correct{color:#0f766e; font-weight:700;}
+  .print-exp{margin-top:3px; padding:6px 9px; background:#fdf6e3 !important; border-left:2px solid #c68010; color:#5c4711 !important; font-size:.82rem;}
+}
+
+/* ===== FREE LECTURE additions ===== */
+.free-strip{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:linear-gradient(135deg,rgba(52,211,153,.14),rgba(21,184,166,.07));border:1px solid rgba(52,211,153,.4);border-radius:var(--r1);padding:12px 16px;margin:0 0 16px;direction:rtl;text-align:right;font-size:.84rem;color:#bdf5dd;line-height:1.7}
+.free-strip .pill{background:linear-gradient(135deg,var(--emerald),var(--teal));color:#04201c;font-weight:800;font-size:.7rem;letter-spacing:1px;padding:4px 12px;border-radius:20px;white-space:nowrap}
+.tool-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+.search{flex:1;min-width:190px;background:var(--panel-2);border:1px solid var(--line);border-radius:10px;color:var(--ink);font-family:inherit;font-size:.85rem;padding:10px 14px;outline:none}
+.search:focus{border-color:var(--teal)}
+.chips{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:14px}
+.chip{background:var(--panel-2);border:1px solid var(--line);color:var(--ink-dim);border-radius:20px;padding:6px 13px;font-size:.72rem;font-weight:700;cursor:pointer;font-family:inherit;transition:.15s}
+.chip:hover{border-color:var(--teal)}
+.chip.on{background:linear-gradient(135deg,var(--teal),var(--emerald));color:#04201c;border-color:transparent}
+.count-line{font-size:.74rem;color:var(--ink-faint);margin-bottom:10px}
+.drug-tbl td{font-size:.8rem}
+.drug-tbl td:first-child{font-family:Georgia,serif;font-size:.9rem}
+.drug-tbl tr.hide{display:none}
+.no-results{display:none;text-align:center;color:var(--ink-faint);font-size:.85rem;padding:24px}
+.subject-note{font-size:.76rem;color:var(--ink-faint);margin-top:4px}
+.promo-card .promo-btn{margin-top:12px}
+
+/* ===== MOBILE FIXES (found in testing) ===== */
+.steps li .li-body{flex:1;min-width:0}
+.card,.hl,.kp-text,.rb-text{overflow-wrap:break-word}
+.tbl td,.tbl th{overflow-wrap:break-word}
+
+/* ===== MOBILE HEADER (found in visual review) ===== */
+@media(max-width:520px){
+  .topbar-inner{padding:12px 14px}
+  .brand{gap:9px;flex-wrap:wrap}
+  .brand-text{min-width:0;flex:1 1 auto}
+  .brand-text h1{font-size:.98rem;white-space:nowrap}
+  .brand-text p{font-size:.6rem;letter-spacing:.8px;line-height:1.35}
+  .mid-badge{order:3;margin-left:0}
+  .print-btn{order:4;margin-left:auto !important}
+  .lec-info h2{font-size:1.05rem;line-height:1.4}
+}
+/* first column of tables may wrap on phones so tables fit without a hidden right edge */
+@media(max-width:520px){
+  .tbl td:first-child{white-space:normal}
+  .table-wrap .tbl{min-width:0}
+  .tbl th,.tbl td{padding:8px 7px}
+}
+
+/* tables: no hidden edge on phones — allow header words to wrap & tighten */
+@media(max-width:520px){
+  .tbl th{font-size:.62rem;letter-spacing:.2px;overflow-wrap:break-word;word-break:normal;hyphens:auto}
+  .tbl td{font-size:.76rem}
+  .tbl th,.tbl td{padding:7px 5px}
+  .table-wrap{-webkit-overflow-scrolling:touch}
+}
+
+/* ===== BRAND HERO (FullMark identity) ===== */
+.hero{position:relative;z-index:2;text-align:center;padding:34px 18px 26px;overflow:hidden}
+.hero-stage{position:relative;width:min(300px,78vw);height:min(300px,78vw);margin:0 auto 6px;display:flex;align-items:center;justify-content:center}
+.hero .brand-ring,.hero .brand-orbit,.hero .brand-glowbg{position:absolute}
+.hero .brand-ring{inset:0;width:auto;height:auto;border-radius:50%;border:1px solid rgba(21,184,166,.28);animation:ringPulse 3.6s ease-in-out infinite}
+.hero .brand-ring.r2{inset:-22px;border-color:rgba(52,211,153,.14);animation-delay:.7s}
+.hero .brand-orbit{inset:-22px;width:auto;height:auto;animation:spin 14s linear infinite}
+.hero .brand-orbit.o2{inset:0;animation:spin 9s linear infinite reverse}
+.hero .brand-glowbg{top:50%;left:50%;width:78%;height:78%;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(circle,rgba(21,184,166,.34),transparent 68%);animation:glowPulse 3.4s ease-in-out infinite}
+.logo-plate{position:relative;z-index:2;width:66%;aspect-ratio:1/1;border-radius:24%;padding:7%;background:linear-gradient(160deg,#ffffff,#eaf6f3);display:flex;align-items:center;justify-content:center;box-shadow:0 18px 46px rgba(0,0,0,.5),0 0 0 1px rgba(255,255,255,.55),0 0 34px rgba(21,184,166,.28)}
+.logo-plate img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;display:block}
+.hero-name{font-family:Georgia,'Times New Roman',serif;font-size:clamp(2rem,9vw,2.7rem);font-weight:700;letter-spacing:.5px;display:flex;justify-content:center;margin-top:14px;line-height:1.1}
+.hero-name span{display:inline-block;opacity:0;transform:translateY(16px);background:linear-gradient(120deg,var(--teal-2),var(--emerald),var(--ink),var(--teal-2));background-size:250% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:letterIn .55s ease forwards,shimmer 3.5s linear infinite 1.2s}
+.hero-tag{margin-top:10px;font-size:.7rem;letter-spacing:3px;text-transform:uppercase;color:var(--ink-faint);opacity:0;animation:tagIn .6s ease forwards .9s}
+.hero-tag{display:flex;justify-content:center;align-items:center;gap:10px}
+.hero-tag .dot{width:4px;height:4px;border-radius:50%;background:var(--ink-faint);display:inline-block}
+.hero-tag b{color:var(--teal-2);font-weight:700;letter-spacing:2px}
+.hero-tag bdi{letter-spacing:.5px;text-transform:none;font-size:.78rem}
+.hero-rule{width:64px;height:2px;margin:18px auto 14px;background:linear-gradient(90deg,transparent,var(--teal),transparent)}
+.hero-course{font-family:Georgia,'Times New Roman',serif;font-size:1.05rem;color:var(--ink);font-weight:600}
+.hero-course small{display:block;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.72rem;font-weight:500;color:var(--ink-faint);margin-top:4px;letter-spacing:.4px}
+.trust{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:16px}
+.trust span{font-size:.68rem;font-weight:700;color:var(--ink-dim);border:1px solid var(--line);background:var(--panel-2);padding:5px 12px;border-radius:20px}
+@media(prefers-reduced-motion:reduce){.hero *{animation:none !important}.hero-name span,.hero-tag{opacity:1;transform:none}}
+
+/* ===== TOPBAR with real logo ===== */
+.brand-mark.logo{background:#f4faf8;padding:3px;box-shadow:0 4px 14px rgba(21,184,166,.35)}
+.brand-mark.logo img{width:100%;height:100%;object-fit:contain;display:block}
+
+/* ===== CONTACT / COMMUNITY CARD ===== */
+.connect{margin-top:22px;border:1px solid rgba(21,184,166,.32);border-radius:var(--r1);overflow:hidden;background:linear-gradient(160deg,rgba(21,184,166,.11),rgba(52,211,153,.04));position:relative}
+.connect::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--teal),var(--emerald),var(--amber))}
+.connect-head{padding:22px 20px 6px;direction:rtl;text-align:right}
+.connect-head h3{font-family:Georgia,'Times New Roman',serif;font-size:1.15rem;color:var(--ink);margin-bottom:6px}
+.connect-head p{font-size:.86rem;color:var(--ink-dim);line-height:1.85}
+.connect-head p b{color:var(--teal-2)}
+.feat-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:12px 20px 4px}
+.feat{background:var(--panel-2);border:1px solid var(--line);border-radius:10px;padding:10px 12px;direction:rtl;text-align:right;font-size:.76rem;color:var(--ink-dim);line-height:1.6}
+.feat b{display:block;color:var(--teal-2);font-family:Georgia,serif;font-size:.9rem;margin-bottom:2px}
+.cta-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:14px 20px 20px}
+.cta{display:flex;flex-direction:column;gap:3px;text-decoration:none;border-radius:14px;padding:14px 16px;direction:rtl;text-align:right;transition:transform .15s,box-shadow .15s}
+.cta small{font-size:.68rem;font-weight:600;opacity:.85}
+.cta strong{font-size:.95rem;font-family:Georgia,serif}
+.cta .handle{direction:ltr;text-align:right;font-family:'SF Mono','Courier New',monospace;font-size:.82rem;font-weight:700;letter-spacing:.3px}
+.cta.primary{background:linear-gradient(135deg,var(--teal),var(--emerald));color:#04201c;box-shadow:0 8px 22px rgba(21,184,166,.28)}
+.cta.ghost{background:var(--panel-2);border:1px solid rgba(21,184,166,.4);color:var(--ink)}
+.cta:hover{transform:translateY(-2px)}
+.cta:focus-visible{outline:2px solid var(--teal-2);outline-offset:3px}
+@media(max-width:520px){.cta-row{grid-template-columns:1fr}.feat-grid{gap:7px;padding:10px 16px 2px}.feat{padding:9px 10px;font-size:.7rem}.feat b{font-size:.82rem}.connect-head{padding:20px 16px 4px}.cta-row{padding:12px 16px 18px}}
+@media print{.hero,.connect{display:none !important}}
+
+.dr-name{display:block;font-family:Georgia,'Times New Roman',serif;font-size:1.08rem;letter-spacing:.6px;text-align:right}
+.dr-dot{font-style:normal;font-size:.62em;margin:0 .35em;vertical-align:.12em;opacity:.8}
+.cta.primary .dr-dot{color:#0a6b5f}
+.cta-hint{font-size:.72rem;font-weight:700;opacity:.9;margin-top:2px}
+
+@media(max-width:400px){
+  .tbl th{font-size:.58rem;letter-spacing:0;padding:6px 4px}
+  .tbl td{font-size:.72rem;padding:6px 4px;line-height:1.55}
+  .tbl td:first-child,.tbl th:first-child{min-width:0;max-width:92px}
+  .card{padding:14px 12px}
+  .table-wrap{margin-left:-2px;margin-right:-2px}
+}
+
+@media(max-width:340px){
+  .tbl th{font-size:.54rem;padding:5px 3px}
+  .tbl td{font-size:.68rem;padding:5px 3px}
+  .tbl td:first-child,.tbl th:first-child{max-width:72px}
+  .card{padding:12px 9px}
+  .wrap{padding-left:8px;padding-right:8px}
+}
+
+@media print{
+  .print-watermark{opacity:.07 !important}
+  .print-footer{margin-top:22px;padding-top:10px;border-top:1px solid #0f766e;text-align:center;font-size:.72rem;color:#0f766e;letter-spacing:.5px;page-break-inside:avoid}
+  .print-footer b{letter-spacing:1px}
+}
+.print-footer{display:none}
+@media print{.print-footer{display:block}}
+
+/* ===== DRUG GROUPS ===== */
+.dgroup{margin:0 0 14px;border:1px solid var(--line);border-radius:var(--r1);background:var(--panel-2);overflow:hidden}
+.dgroup.hide{display:none}
+.dg-head{padding:12px 16px 8px;border-bottom:1px solid var(--line);background:linear-gradient(135deg,rgba(21,184,166,.08),transparent)}
+.dg-head h4{font-family:Georgia,'Times New Roman',serif;font-size:.98rem;color:var(--ink);margin:0 0 3px}
+.dg-head p{font-size:.72rem;color:var(--ink-faint);direction:rtl;text-align:right;margin:0;line-height:1.6}
+.dgroup .table-wrap{margin:0}
+.dgroup .tbl{margin:0;border:0}
+.dgroup .tbl td{border-bottom:1px solid var(--line);vertical-align:top}
+.dgroup .tbl tr:last-child td{border-bottom:0}
+.drug-tbl td.dn{font-family:Georgia,'Times New Roman',serif;font-weight:700;color:var(--teal-2);font-size:.9rem;white-space:normal;width:34%;text-align:left}
+.drug-tbl td.dd{text-align:left;white-space:normal;color:var(--ink-dim);font-size:.8rem;line-height:1.65}
+.drug-tbl td.dd strong{color:var(--ink)}
+.drow.hide{display:none}
+.drow mark{background:rgba(21,184,166,.28);color:var(--ink);border-radius:3px;padding:0 2px}
+@media(max-width:520px){.drug-tbl td.dn{width:36%;font-size:.82rem}.drug-tbl td.dd{font-size:.74rem}}
+
+/* compact hero on non-Explanation tabs so the work area is visible immediately */
+.hero.compact{padding:14px 18px 10px}
+.hero.compact .hero-stage{width:74px;height:74px;margin-bottom:0}
+.hero.compact .brand-ring.r2,.hero.compact .brand-orbit,.hero.compact .brand-glowbg{display:none}
+.hero.compact .hero-name{font-size:1.25rem;margin-top:6px}
+.hero.compact .hero-tag,.hero.compact .hero-rule,.hero.compact .hero-course,.hero.compact .trust{display:none}
+.hero.compact .logo-plate{width:100%;border-radius:22%}
+.chips{gap:6px}
+.chip{padding:6px 12px;font-size:.72rem;white-space:nowrap}
+
+@media print{
+  #printArea .dgroup{border:1px solid #cfe3df;border-radius:6px;margin:0 0 8px;background:#fff;page-break-inside:avoid}
+  #printArea .dgroup.hide,#printArea .drow.hide{display:table-row}
+  #printArea .dgroup.hide{display:block}
+  #printArea .dg-head{padding:6px 10px;border-bottom:1px solid #cfe3df;background:#f1f8f6}
+  #printArea .dg-head h4{font-size:.86rem;color:#0f172a;margin:0}
+  #printArea .dg-head p{font-size:.68rem;color:#4b5b5a;direction:rtl;text-align:right;margin:2px 0 0}
+  #printArea .drug-tbl td{font-size:.74rem;padding:4px 8px;border-bottom:1px solid #e3efec;color:#1a1a1a;background:#fff}
+  #printArea .drug-tbl td.dn{font-weight:700;color:#0f766e;width:30%;font-family:inherit}
+  #printArea .drug-tbl td.dd strong{color:#000}
+}
+
+/* ===== DUA POPUP (appears when the student scrolls down to the lecture) ===== */
+.dua-overlay{position:fixed;inset:0;z-index:10000;display:flex;align-items:center;justify-content:center;padding:18px;
+  background:radial-gradient(ellipse at 50% 35%,rgba(21,184,166,.16),rgba(2,9,10,.9) 70%);
+  -webkit-backdrop-filter:blur(7px);backdrop-filter:blur(7px);
+  opacity:0;visibility:hidden;transition:opacity .45s ease,visibility 0s linear .45s}
+.dua-overlay.show{opacity:1;visibility:visible;transition:opacity .45s ease}
+.dua-card:focus{outline:none}
+.dua-card{position:relative;width:100%;max-width:460px;max-height:calc(100vh - 36px);max-height:calc(100dvh - 36px);overflow-y:auto;overscroll-behavior:contain;
+  border-radius:26px;padding:30px 22px 22px;text-align:center;direction:rtl;
+  background:linear-gradient(165deg,#0f2a2c 0%,#0a1c1e 55%,#0c2226 100%);
+  border:1px solid rgba(21,184,166,.4);
+  box-shadow:0 30px 80px rgba(0,0,0,.65),0 0 0 1px rgba(255,255,255,.04) inset,0 0 60px rgba(21,184,166,.16);
+  transform:translateY(26px) scale(.94);opacity:0;transition:transform .55s cubic-bezier(.2,.9,.25,1.15),opacity .45s ease}
+.dua-overlay.show .dua-card{transform:none;opacity:1}
+.dua-card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;border-radius:26px 26px 0 0;background:linear-gradient(90deg,var(--teal),var(--emerald),var(--amber),var(--emerald),var(--teal))}
+.dua-x{position:absolute;top:12px;left:12px;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--panel-2);color:var(--ink-dim);font-size:1rem;cursor:pointer;line-height:1;display:flex;align-items:center;justify-content:center;transition:.15s;font-family:inherit}
+.dua-x:hover{border-color:var(--teal);color:var(--ink)}
+.dua-x:focus-visible,.dua-btn:focus-visible{outline:2px solid var(--teal-2);outline-offset:3px}
+
+.dua-ornament{display:flex;align-items:center;justify-content:center;gap:10px;margin:0 0 12px;color:var(--amber)}
+.dua-ornament i{display:block;height:1px;width:52px;background:linear-gradient(90deg,transparent,var(--amber))}
+.dua-ornament i:last-child{background:linear-gradient(90deg,var(--amber),transparent)}
+.dua-ornament span{font-size:1.15rem;filter:drop-shadow(0 0 8px rgba(251,191,36,.55))}
+
+.dua-basmala{font-family:'Amiri','Scheherazade New','Traditional Arabic','Noto Naskh Arabic',Georgia,serif;font-size:clamp(1.55rem,6.6vw,2.05rem);line-height:1.9;color:#fef3c7;
+  text-shadow:0 0 22px rgba(251,191,36,.28);margin:0 0 4px}
+.dua-lead{font-size:.74rem;color:var(--teal-2);letter-spacing:.4px;font-weight:700;margin:0 0 14px}
+
+.dua-block{background:rgba(255,255,255,.035);border:1px solid var(--line);border-radius:16px;padding:14px 14px 12px;margin:0 0 10px}
+.dua-block .ar{font-family:'Amiri','Scheherazade New','Traditional Arabic','Noto Naskh Arabic',Georgia,serif;font-size:clamp(1.12rem,4.9vw,1.4rem);line-height:2.05;color:var(--ink);margin:0}
+.dua-block .ar.big{font-size:clamp(1.22rem,5.4vw,1.55rem);color:#fef3c7}
+.dua-block .src{margin-top:5px;font-size:.66rem;color:var(--ink-faint);letter-spacing:.3px}
+.dua-block.tawakkul{background:linear-gradient(135deg,rgba(251,191,36,.10),rgba(251,191,36,.02));border-color:rgba(251,191,36,.32)}
+
+.dua-title{font-size:.82rem;font-weight:800;color:var(--teal-2);margin:14px 0 8px;letter-spacing:.3px;display:flex;align-items:center;justify-content:center;gap:8px}
+.dua-title::before,.dua-title::after{content:'';height:1px;flex:1;background:linear-gradient(90deg,transparent,var(--line))}
+.dua-title::after{background:linear-gradient(90deg,var(--line),transparent)}
+
+.dua-btn{margin-top:16px;width:100%;border:0;border-radius:14px;padding:14px 18px;cursor:pointer;font-family:inherit;font-size:1rem;font-weight:800;color:#04201c;
+  background:linear-gradient(135deg,var(--teal),var(--emerald));box-shadow:0 10px 26px rgba(21,184,166,.32);transition:transform .15s,box-shadow .15s}
+.dua-btn:hover{transform:translateY(-2px);box-shadow:0 14px 32px rgba(21,184,166,.4)}
+.dua-hint{margin-top:9px;font-size:.66rem;color:var(--ink-faint)}
+
+/* staggered reveal of the blocks */
+.dua-card .stg{opacity:0;transform:translateY(10px);transition:opacity .5s ease,transform .5s ease}
+.dua-overlay.show .stg{opacity:1;transform:none}
+.dua-overlay.show .stg:nth-child(2){transition-delay:.18s}
+.dua-overlay.show .stg:nth-child(3){transition-delay:.3s}
+.dua-overlay.show .stg:nth-child(4){transition-delay:.42s}
+.dua-overlay.show .stg:nth-child(5){transition-delay:.54s}
+.dua-overlay.show .stg:nth-child(6){transition-delay:.66s}
+.dua-overlay.show .stg:nth-child(7){transition-delay:.78s}
+body.dua-open{overflow:hidden}
+
+@media(max-width:400px){.dua-card{padding:26px 15px 18px;border-radius:22px}.dua-block{padding:12px 10px 10px}}
+@media(prefers-reduced-motion:reduce){.dua-overlay,.dua-card,.dua-card .stg{transition:none !important;transform:none !important}}
+@media print{.dua-overlay{display:none !important}}
+
+/* verse-end ornament drawn in CSS (the Unicode ۝ glyph shows as an empty box on many phones) */
+.vend{display:inline-flex;align-items:center;justify-content:center;width:1.55em;height:1.55em;margin:0 .32em;border-radius:50%;
+  border:1.5px solid rgba(251,191,36,.7);color:#fbbf24;font-style:normal;font-family:'Amiri','Traditional Arabic',Georgia,serif;
+  font-size:.5em;line-height:1;vertical-align:.32em;background:rgba(251,191,36,.08);box-shadow:0 0 10px rgba(251,191,36,.18)}
+.dua-btn:focus:not(:focus-visible){outline:none}
+.dua-btn:focus-visible{outline:2px solid #fef3c7;outline-offset:3px}
+.dua-btn .bl{display:inline-flex;align-items:center;gap:8px;direction:rtl}
+
+/* ---- compact so the whole dua is readable at a glance on phones (no inner scrolling on most screens) ---- */
+@media(max-width:520px){
+  .dua-overlay{padding:12px}
+  .dua-card{padding:22px 14px 14px;border-radius:22px;max-height:calc(100dvh - 24px)}
+  .dua-ornament{margin-bottom:4px}.dua-ornament i{width:40px}
+  .dua-basmala{font-size:clamp(1.35rem,6vw,1.7rem);line-height:1.7;margin-bottom:0}
+  .dua-lead{margin-bottom:9px;font-size:.7rem}
+  .dua-block{padding:9px 10px 8px;margin-bottom:7px;border-radius:14px}
+  .dua-block .ar{font-size:clamp(1rem,4.5vw,1.2rem);line-height:1.95}
+  .dua-block .ar.big{font-size:clamp(1.1rem,5vw,1.32rem);line-height:1.85}
+  .dua-block .src{margin-top:2px;font-size:.62rem}
+  .dua-title{margin:8px 0 6px;font-size:.76rem}
+  .dua-btn{margin-top:10px;padding:12px 16px;font-size:.95rem;border-radius:13px}
+  .dua-hint{margin-top:6px;font-size:.6rem}
+  .dua-x{top:9px;left:9px;width:30px;height:30px;font-size:.9rem}
+}
+@media(max-height:700px){
+  .dua-hint{display:none}
+  .dua-block .ar{line-height:1.8}
+}
+
+/* laptops / short landscape screens: tighten vertically instead of forcing an inner scroll */
+@media(min-width:521px) and (max-height:900px){
+  .dua-card{padding:22px 24px 16px}
+  .dua-basmala{font-size:1.75rem;line-height:1.65}
+  .dua-lead{margin-bottom:9px}
+  .dua-block{padding:10px 14px 8px;margin-bottom:8px}
+  .dua-block .ar{font-size:1.2rem;line-height:1.85}
+  .dua-block .ar.big{font-size:1.32rem}
+  .dua-title{margin:9px 0 6px}
+  .dua-btn{margin-top:10px;padding:12px 18px}
+  .dua-hint{margin-top:6px}
+}
+/* very small phones (320px wide) */
+@media(max-width:340px){
+  .dua-card{padding:18px 10px 12px}
+  .dua-basmala{font-size:1.25rem}
+  .dua-block{padding:7px 8px 6px;margin-bottom:6px}
+  .dua-block .ar{font-size:.95rem;line-height:1.8}
+  .dua-block .ar.big{font-size:1.02rem}
+  .dua-title{margin:6px 0 4px}
+  .dua-lead{margin-bottom:6px}
+  .dua-btn{margin-top:8px;padding:10px 12px;font-size:.88rem}
+}
+@media print{.tool-row,.chips,.count-line,.free-strip{display:none !important}}
+
+
+/* ===== ARABIC TERM TRANSLATIONS ===== */
+.ar-tr{display:inline;direction:rtl;unicode-bidi:isolate;margin:0 .3em;padding:1px 7px;border-radius:7px;background:rgba(232,179,76,.12);color:var(--amber);font-family:'Segoe UI',Tahoma,'Noto Naskh Arabic',Arial,sans-serif;font-size:.8em;font-weight:600;font-style:normal;letter-spacing:0 !important;text-transform:none !important;line-height:1.5;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.tbl td:first-child .ar-tr{white-space:normal}
+.hl.amber .ar-tr,.explanation .ar-tr{background:rgba(232,179,76,.2);color:#ffd98a}
+@media print{.ar-tr{background:#fdf3dc !important;color:#8a5400 !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+
+/* ===== DENTAL ANATOMY additions ===== */
+.pts{list-style:none;padding:0;margin:8px 0 0}
+.pts li{padding:8px 0;border-bottom:1px dashed var(--line);font-size:.86rem;color:var(--ink-dim);line-height:1.75}
+.pts li:last-child{border-bottom:none}
+.pts li strong,.pts li b{color:var(--ink)}
+.dr-say{direction:rtl;text-align:right;margin:14px 0 0;padding:13px 16px;border-radius:var(--r2);background:rgba(21,184,166,.09);border:1px solid rgba(21,184,166,.35);border-right:4px solid var(--teal);font-size:.88rem;line-height:2;color:var(--ink-dim)}
+.dr-say .who{display:block;font-family:Georgia,serif;font-weight:800;color:var(--teal-2);margin-bottom:4px;font-size:.86rem}
+.dr-say b,.dr-say strong{color:var(--ink);unicode-bidi:isolate}
+@media print{.dr-say{background:#eef8f6 !important;border:1px solid #9fd3cb;border-right:4px solid #0f766e;color:#1a1a1a;page-break-inside:avoid;-webkit-print-color-adjust:exact;print-color-adjust:exact}.dr-say .who{color:#0f766e}.dr-say b{color:#000}.pts li{color:#1a1a1a}}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <div class="brand-mark logo"><img alt="FullMark" data-logo></div>
+      <div class="brand-text">
+        <h1>Medical Terminology</h1>
+        <p>Faculty of Dentistry · FullMark Platform</p>
+      </div>
+      <div class="mid-badge">Lecture 2</div>
+      <button class="print-btn" onclick="window.print()" style="margin-left:8px">🖨️ طباعة</button>
+    </div>
+  </div>
+</div>
+
+
+<header class="hero">
+  <div class="hero-stage">
+    <div class="brand-glowbg"></div>
+    <div class="brand-ring"></div><div class="brand-ring r2"></div>
+    <div class="brand-orbit"><div class="brand-dot"></div></div>
+    <div class="brand-orbit o2"><div class="brand-dot d2"></div></div>
+    <div class="logo-plate"><img alt="FullMark 4.0 GPA" data-logo></div>
+  </div>
+  <div class="hero-name" id="heroName" aria-label="FullMark"></div>
+  <div class="hero-tag"><bdi>منصة التفوق الأكاديمي</bdi><i class="dot"></i><b dir="ltr">4.0 GPA</b></div>
+  <div class="hero-rule"></div>
+  <div class="hero-course">Medical Terminology for Dentistry · Lecture 2<small>Word Roots, Prefixes & Suffixes · Faculty of Dentistry</small></div>
+  <div class="trust"><span>📖 شرح بالعربي</span><span>📋 جداول الحفظ</span><span>❓ 30 MCQs</span></div>
+</header>
+
+<div class="lecture-tab-bar">
+  <div class="lecture-tab-bar-inner">
+    <button class="lecture-tab active" onclick="switchLecture('lec2',this)"><span class="lt-num">2</span>Roots, Prefixes &amp; Suffixes</button>
+  </div>
+</div>
+
+<div id="lecture-lec2">
+
+<div class="nav">
+  <button class="lsn-btn active" onclick="showView('content','lec2',this)">📖 الشرح</button>
+  <button class="lsn-btn" onclick="showView('tables','lec2',this)">📋 جداول الحفظ</button>
+  <button class="lsn-btn" onclick="showView('quiz','lec2',this)">❓ Quiz (30)</button>
+</div>
+
+<div class="wrap">
+
+<div id="introBlock">
+<div class="gift-banner">
+  <div class="title">أهلاً بيك في المحاضرة التانية 🦷</div>
+  المحاضرة دي عن <b>أجزاء الكلمة الطبية</b>: الجذور <b>(Roots)</b> واللواحق <b>(Suffixes)</b> والبوادئ <b>(Prefixes)</b>. أول ما تحفظ معنى كل جزء هتقدر تفكّ أي مصطلح جديد بنفسك. ذاكر بالتدريج، وإنت قدها. 💪<br>
+  <b>FullMark</b> منصة أكاديمية بتحوّل محاضرات كليات الطب وطب الأسنان لملفات تفاعلية: شرح مبسط بالعربي مع الحفاظ على المصطلح الإنجليزي، جداول للحفظ، وكويز <bdi dir='ltr'>MCQ</bdi> بتوضيح لكل إجابة.
+</div>
+
+<div class="alert-banner">
+  <div class="title">📌 تنبيه مهم قبل ما تبدأ</div>
+  الترجمة والتوضيح اللي هتلاقيهم في الملف موجودين <b>عشان نساعدك في البداية بس</b>، لأن المصطلحات في أول سنة بتبقى جديدة على الكل. لكن المحاضرات والامتحانات والمراجع كلها بالإنجليزي، فالهدف إنك <b>تتعود على المصطلح الإنجليزي نفسه</b> وتفهمه بدون ترجمة.<br>
+  استخدمهم كأنهم <b>عجلات التدريب</b>: اقرأ الجزء الإنجليزي الأول، حاول تفهمه بنفسك، وبعدين اقرا التوضيح تتأكد. ومع الوقت قلّل اعتمادك عليهم لحد ما تستغني عنهم خالص. 💪
+</div>
+
+<div class="lec-divider">
+  <div class="lec-num">2</div>
+  <div class="lec-info"><h2>Word Roots, Prefixes & Suffixes</h2><p>Medical Terminology for Dentistry</p></div>
+</div>
+
+</div><!-- /introBlock -->
+
+<!-- ============ 1) EXPLANATION ============ -->
+<div class="lec-view" id="view-content-lec2">
+<div class="card"><div class="ctitle">🌱 Word Roots</div><div class="hl teal">A <b>word root</b> <span class="ar-tr" dir="rtl">(جذر الكلمة)</span> contains the <b>basic meaning</b> of the term. In medical terminology, this word part indicates the <b>involved body part</b>.</div><div class="hl amber"><b>For example:</b> the word root meaning stomach is <b>gastr</b>.</div><div class="table-wrap"><table class="tbl"><thead><tr><th>Root / combining form</th><th>Meaning</th></tr></thead><tbody><tr><td><b>myel/o</b></td><td>spinal cord <span class="ar-tr" dir="rtl">(النخاع الشوكي)</span></td></tr><tr><td><b>my/o</b></td><td>muscle <span class="ar-tr" dir="rtl">(عضلة)</span></td></tr><tr><td><b>oste/o</b></td><td>bone <span class="ar-tr" dir="rtl">(عظم)</span></td></tr><tr><td><b>arthr/o</b></td><td>joint <span class="ar-tr" dir="rtl">(مفصل)</span></td></tr><tr><td><b>gastr</b></td><td>stomach <span class="ar-tr" dir="rtl">(معدة)</span></td></tr></tbody></table></div><div class="dr-say"><span class="who">💡 توضيح</span>الجذر بيقولك <b>العضو المعني</b> في المصطلح. اللي ليه <bdi dir='ltr'>/o</bdi> (زي <bdi dir='ltr'>myel/o</bdi>) ده شكل الجذر مع حرف الوصل، واللي من غيره (زي <bdi dir='ltr'>gastr</bdi>) هو الجذر نفسه.</div></div>
+<div class="card"><div class="ctitle">📏 Word Part Guidelines</div><ul class="steps"><li><span class="sn">1</span><div class="li-body">A word root <b>cannot stand alone</b>. A <b>suffix</b> must always be added at the end of the word to complete the term.</div></li><li><span class="sn">2</span><div class="li-body">The rules for creating a <b>combining form</b> by adding a vowel apply when a <b>suffix beginning with a consonant</b> is added to a word root.</div></li><li><span class="sn">3</span><div class="li-body">When a <b>prefix</b> is added, it is <b>always</b> placed at the beginning of the word.</div></li></ul><div class="dr-say"><span class="who">💡 توضيح</span>الجذر لوحده مش كلمة كاملة، لازم <b>لاحقة في الآخر</b> تكمّل المصطلح. والبادئة لو موجودة بتكون <b>دايمًا في الأول</b>.</div></div>
+<div class="card"><div class="ctitle">🎨 Word Roots and Combining Forms Indicating Color</div><div class="table-wrap"><table class="tbl"><thead><tr><th>Combining form</th><th>Meaning</th><th>Term</th><th>Pronunciation</th><th>Meaning of the term</th></tr></thead><tbody><tr><td><b>cyan/o</b></td><td>blue <span class="ar-tr" dir="rtl">(أزرق)</span></td><td><b>Cyanosis</b></td><td>sigh-ah-NOH-sis</td><td>Blue discoloration of the skin caused by a lack of adequate oxygen in the blood <span class="ar-tr" dir="rtl">(ازرقاق الجلد بسبب نقص الأكسجين في الدم)</span></td></tr><tr><td><b>erythr/o</b></td><td>red <span class="ar-tr" dir="rtl">(أحمر)</span></td><td><b>Erythrocyte</b></td><td>eh-RITH-roh-sight</td><td>A mature red blood cell <span class="ar-tr" dir="rtl">(كرية دم حمراء ناضجة)</span></td></tr><tr><td><b>leuk/o</b></td><td>white <span class="ar-tr" dir="rtl">(أبيض)</span></td><td><b>Leukocyte</b></td><td>LOO-koh-sight</td><td>A white blood cell <span class="ar-tr" dir="rtl">(كرية دم بيضاء)</span></td></tr><tr><td><b>melan/o</b></td><td>black <span class="ar-tr" dir="rtl">(أسود)</span></td><td><b>Melanosis</b></td><td>mel-ah-NOH-sis</td><td>Any condition of unusual deposits of black pigment in body tissues or organs <span class="ar-tr" dir="rtl">(ترسّب غير طبيعي للصبغة السوداء في الأنسجة أو الأعضاء)</span></td></tr><tr><td><b>poli/o</b></td><td>gray <span class="ar-tr" dir="rtl">(رمادي)</span></td><td><b>Poliomyelitis</b></td><td>poh-lee-oh-my-eh-LYE-tis</td><td>A viral infection of the gray matter of the spinal cord <span class="ar-tr" dir="rtl">(عدوى فيروسية في المادة الرمادية للنخاع الشوكي)</span></td></tr></tbody></table></div><div class="hl teal"><b>-osis</b> = abnormal condition or disease · <b>-cyte</b> = cell · <b>-itis</b> = inflammation</div><div class="dr-say"><span class="who">💡 توضيح</span>الألوان في المصطلحات: <bdi dir='ltr'>cyan/o</bdi> أزرق، <bdi dir='ltr'>erythr/o</bdi> أحمر، <bdi dir='ltr'>leuk/o</bdi> أبيض، <bdi dir='ltr'>melan/o</bdi> أسود، <bdi dir='ltr'>poli/o</bdi> رمادي. و<bdi dir='ltr'>Poliomyelitis</bdi> = رمادي (<bdi dir='ltr'>poli/o</bdi>) + نخاع شوكي (<bdi dir='ltr'>myel</bdi>) + التهاب (<bdi dir='ltr'>-itis</bdi>).</div></div>
+<div class="card"><div class="ctitle">↔️ Prefix vs Suffix</div><div class="hl teal">A <b>prefix</b> <span class="ar-tr" dir="rtl">(بادئة)</span> usually indicates <b>location, time, number, or status</b>. It <b>always</b> comes at the <b>beginning</b> of a word.</div><div class="hl violet">A <b>suffix</b> <span class="ar-tr" dir="rtl">(لاحقة)</span> usually indicates the <b>procedure, condition, disorder, or disease</b>. It <b>always</b> comes at the <b>end</b> of the word.</div><div class="hl amber"><b>For example:</b> the suffix <b>-itis</b> means <b>inflammation</b>.</div><div class="dr-say"><span class="who">💡 توضيح</span>البادئة في <b>الأول</b> وبتدل على المكان أو الوقت أو العدد أو الحالة. واللاحقة في <b>الآخر</b> وبتدل على الإجراء أو الحالة أو المرض.</div></div>
+<div class="card"><div class="ctitle">🔗 The Combining Vowel</div><div class="hl teal">A <b>combining vowel</b> is used when the <b>suffix begins with a consonant</b>. When <b>neur/o</b> (nerve) is joined with <b>-plasty</b> (surgical repair) or <b>-rrhaphy</b> (surgical suturing), the combining vowel <b>“o”</b> is used because both suffixes begin with a consonant.</div><div class="table-wrap"><table class="tbl"><thead><tr><th>Term</th><th>Analysis</th><th>Meaning</th></tr></thead><tbody><tr><td><b>Neuroplasty</b></td><td>neur/o + -plasty</td><td>The surgical repair of a nerve <span class="ar-tr" dir="rtl">(إصلاح جراحي للعصب)</span></td></tr><tr><td><b>Neurorrhaphy</b></td><td>neur/o + -rrhaphy</td><td>Suturing together the ends of a severed nerve <span class="ar-tr" dir="rtl">(خياطة طرفي عصب مقطوع)</span></td></tr></tbody></table></div><div class="dr-say"><span class="who">💡 توضيح</span>اللاحقة بتبدأ بحرف ساكن (<bdi dir='ltr'>-plasty</bdi> و<bdi dir='ltr'>-rrhaphy</bdi>) فبنحط حرف الوصل <b>o</b>. ولاحظ في أمثلة المحاضرة إن <bdi dir='ltr'>Gastritis</bdi> و<bdi dir='ltr'>Tonsillitis</bdi> من غير حرف وصل، لأن <bdi dir='ltr'>-itis</bdi> بتبدأ بحرف علّة.</div></div>
+<div class="card"><div class="ctitle">🧩 Tonsillitis & Tonsillectomy</div><div class="hl teal"><b>TONSILL</b> (tonsil, tonsils) + <b>-ITIS</b> (inflammation) = <b>TONSILLITIS</b> (inflammation of the tonsils)</div><div class="table-wrap"><table class="tbl"><thead><tr><th>Term</th><th>Analysis</th><th>Meaning</th></tr></thead><tbody><tr><td><b>Tonsillitis</b></td><td>tonsill + -itis</td><td>An inflammation of the tonsils <span class="ar-tr" dir="rtl">(التهاب اللوزتين)</span></td></tr><tr><td><b>Tonsillectomy</b></td><td>tonsill + -ectomy</td><td>The surgical removal of the tonsils <span class="ar-tr" dir="rtl">(استئصال اللوزتين جراحيًا)</span></td></tr></tbody></table></div><div class="dr-say"><span class="who">💡 توضيح</span>نفس الجذر <bdi dir='ltr'>tonsill</bdi> والمعنى بيتغيّر بتغيير اللاحقة: <bdi dir='ltr'>-itis</bdi> التهاب، و<bdi dir='ltr'>-ectomy</bdi> استئصال جراحي.</div></div>
+<div class="card"><div class="ctitle">🩺 Suffixes Related to Pathology</div><div class="hl teal"><b>Pathology</b> is the study of all aspects of diseases (<b>path</b> = disease, <b>-ology</b> = study of).</div><div class="table-wrap"><table class="tbl"><thead><tr><th>Suffix</th><th>Meaning</th><th>Term</th><th>Analysis</th><th>Meaning of the term</th></tr></thead><tbody><tr><td><b>-algia</b></td><td>pain and suffering</td><td><b>Gastralgia</b></td><td>gastr + -algia</td><td>Pain in the stomach</td></tr><tr><td><b>-itis</b></td><td>inflammation</td><td><b>Gastritis</b></td><td>gastr + -itis</td><td>An inflammation of the stomach</td></tr><tr><td><b>-megaly</b></td><td>enlargement</td><td><b>Hepatomegaly</b></td><td>hepat/o + -megaly</td><td>Abnormal enlargement of the liver</td></tr><tr><td><b>-necrosis</b></td><td>tissue death</td><td><b>Arterionecrosis</b></td><td>arteri/o + -necrosis</td><td>Tissue death of an artery or arteries</td></tr><tr><td><b>-sclerosis</b></td><td>abnormal hardening</td><td><b>Arteriosclerosis</b></td><td>arteri/o + -sclerosis</td><td>Abnormal hardening of the walls of an artery or arteries</td></tr><tr><td><b>-stenosis</b></td><td>abnormal narrowing</td><td><b>Arteriostenosis</b></td><td>arteri/o + -stenosis</td><td>Abnormal narrowing of an artery or arteries</td></tr></tbody></table></div><div class="dr-say"><span class="who">💡 توضيح</span>الثلاثة الأخيرين على الشريان بيتلخبطوا: <bdi dir='ltr'>-necrosis</bdi> موت أنسجة، <bdi dir='ltr'>-sclerosis</bdi> تصلّب، <bdi dir='ltr'>-stenosis</bdi> ضيق.</div></div>
+<div class="card"><div class="ctitle">⬅️ Prefixes: Time (Natal)</div><div class="hl teal">Prefixes indicate <b>location, time, number, direction, quantity, size, and amount</b>.</div><div class="table-wrap"><table class="tbl"><thead><tr><th>Term</th><th>Analysis</th><th>Meaning</th></tr></thead><tbody><tr><td><b>Prenatal</b></td><td>pre- + nat</td><td>The time and events before birth <span class="ar-tr" dir="rtl">(الفترة والأحداث قبل الولادة)</span></td></tr><tr><td><b>Perinatal</b></td><td>peri- + nat</td><td>The time and events surrounding birth (just before, during, and just after birth) <span class="ar-tr" dir="rtl">(الفترة والأحداث حوالين الولادة (قبلها مباشرة وأثناءها وبعدها مباشرة))</span></td></tr><tr><td><b>Postnatal</b></td><td>post- + nat</td><td>The time and events after birth <span class="ar-tr" dir="rtl">(الفترة والأحداث بعد الولادة)</span></td></tr></tbody></table></div><div class="dr-say"><span class="who">💡 توضيح</span><bdi dir='ltr'>nat</bdi> = ولادة. والبادئة بتحدد الوقت: <bdi dir='ltr'>pre-</bdi> قبل، <bdi dir='ltr'>peri-</bdi> حوالين (قبل وأثناء وبعد الولادة مباشرة)، <bdi dir='ltr'>post-</bdi> بعد.</div></div>
+<div class="card"><div class="ctitle">⚖️ Contrasting Prefixes: Direction, Quantity, Size & Amount</div><div class="table-wrap"><table class="tbl"><thead><tr><th>Prefix</th><th>Meaning</th><th>Example</th><th>Meaning of the example</th></tr></thead><tbody><tr><td><b>ab-</b></td><td>away from <span class="ar-tr" dir="rtl">(بعيد عن)</span></td><td><b>Abnormal</b></td><td>Not normal or away from normal <span class="ar-tr" dir="rtl">(غير طبيعي)</span></td></tr><tr><td><b>ad-</b></td><td>toward or in the direction of <span class="ar-tr" dir="rtl">(ناحية)</span></td><td><b>Addiction</b></td><td>Drawn toward or a strong dependence on a drug or substance <span class="ar-tr" dir="rtl">(انجذاب أو اعتماد شديد على دواء أو مادة)</span></td></tr><tr><td><b>dys-</b></td><td>bad, difficult, or painful <span class="ar-tr" dir="rtl">(سيّء أو صعب أو مؤلم)</span></td><td><b>Dysfunctional</b></td><td>An organ or body part that is not working properly <span class="ar-tr" dir="rtl">(عضو أو جزء من الجسم مش شغال صح)</span></td></tr><tr><td><b>eu-</b></td><td>good, normal, well, or easy <span class="ar-tr" dir="rtl">(جيّد أو طبيعي أو سهل)</span></td><td><b>Eupnea</b></td><td>Easy or normal breathing <span class="ar-tr" dir="rtl">(تنفس سهل أو طبيعي)</span></td></tr><tr><td><b>hyper-</b></td><td>excessive or increased <span class="ar-tr" dir="rtl">(زيادة)</span></td><td><b>Hypertension</b></td><td>Higher-than-normal blood pressure <span class="ar-tr" dir="rtl">(ارتفاع ضغط الدم)</span></td></tr><tr><td><b>hypo-</b></td><td>deficient or decreased <span class="ar-tr" dir="rtl">(نقص)</span></td><td><b>Hypotension</b></td><td>Lower-than-normal blood pressure <span class="ar-tr" dir="rtl">(انخفاض ضغط الدم)</span></td></tr><tr><td><b>inter-</b></td><td>between or among <span class="ar-tr" dir="rtl">(بين)</span></td><td><b>Interstitial</b></td><td>Between, but not within, the parts of a tissue <span class="ar-tr" dir="rtl">(بين أجزاء النسيج مش جواها)</span></td></tr><tr><td><b>intra-</b></td><td>within or inside <span class="ar-tr" dir="rtl">(جوّه)</span></td><td><b>Intramuscular</b></td><td>Within the muscle <span class="ar-tr" dir="rtl">(داخل العضلة)</span></td></tr><tr><td><b>sub-</b></td><td>under, less, or below <span class="ar-tr" dir="rtl">(تحت)</span></td><td><b>Subcostal</b></td><td>Below a rib or ribs <span class="ar-tr" dir="rtl">(تحت الضلع أو الأضلاع)</span></td></tr><tr><td><b>super-, supra-</b></td><td>above or excessive <span class="ar-tr" dir="rtl">(فوق أو زيادة)</span></td><td><b>Supracostal</b></td><td>Above or outside the ribs <span class="ar-tr" dir="rtl">(فوق الأضلاع أو خارجها)</span></td></tr></tbody></table></div><div class="dr-say"><span class="who">💡 توضيح</span>البوادئ دي أزواج متضادة: <bdi dir='ltr'>ab-</bdi> بعيد عن مقابل <bdi dir='ltr'>ad-</bdi> ناحية، <bdi dir='ltr'>dys-</bdi> سيّء مقابل <bdi dir='ltr'>eu-</bdi> جيّد، <bdi dir='ltr'>hyper-</bdi> زيادة مقابل <bdi dir='ltr'>hypo-</bdi> نقص، <bdi dir='ltr'>inter-</bdi> بين مقابل <bdi dir='ltr'>intra-</bdi> جوّه، <bdi dir='ltr'>sub-</bdi> تحت مقابل <bdi dir='ltr'>super-/supra-</bdi> فوق.</div></div>
+<div class="card"><div class="ctitle">✍️ Lecture Exercise: Match the Definition</div><div class="table-wrap"><table class="tbl"><thead><tr><th>#</th><th>Definition</th><th>Answer</th></tr></thead><tbody><tr><td>1.1</td><td>bad, difficult, painful</td><td><b>dys-</b></td></tr><tr><td>1.2</td><td>excessive, increased</td><td><b>hyper-</b></td></tr><tr><td>1.3</td><td>enlargement</td><td><b>-megaly</b></td></tr><tr><td>1.4</td><td>pain, suffering</td><td><b>-algia</b></td></tr><tr><td>1.5</td><td>surgical removal</td><td><b>-ectomy</b></td></tr><tr><td>1.6</td><td>abnormal condition or disease</td><td><b>-osis</b></td></tr><tr><td>1.7</td><td>abnormal softening</td><td><b>-malacia</b></td></tr><tr><td>1.8</td><td>deficient, decreased</td><td><b>hypo-</b></td></tr><tr><td>1.9</td><td>inflammation</td><td><b>-itis</b></td></tr><tr><td>1.10</td><td>tissue death</td><td><b>-necrosis</b></td></tr></tbody></table></div><div class="dr-say"><span class="who">💡 توضيح</span>دي إجابات تمرين التوصيل (1.1 لـ 1.10) من المحاضرة. جرّب تغطي العمود الأخير وتجاوب بنفسك.</div></div>
+</div>
+
+<!-- ============ 2) MEMORIZATION TABLES ============ -->
+<div class="lec-view" id="view-tables-lec2" style="display:none">
+<div class="glossary-section" style="margin-top:0;margin-bottom:14px"><h3>📋 جداول الحفظ — Memorization Tables</h3><div class="sub"><bdi dir='ltr'>8</bdi> جداول مرتبة تجمّع كل اللي في المحاضرة، راجعها قبل الاختبار.</div></div><div class="card"><div class="ctitle">1️⃣ Word Roots</div><div class="table-wrap"><table class="tbl"><thead><tr><th>Root</th><th>Meaning</th><th>بالعربي</th></tr></thead><tbody><tr><td>myel/o</td><td>spinal cord</td><td>النخاع الشوكي</td></tr><tr><td>my/o</td><td>muscle</td><td>عضلة</td></tr><tr><td>oste/o</td><td>bone</td><td>عظم</td></tr><tr><td>arthr/o</td><td>joint</td><td>مفصل</td></tr><tr><td>gastr</td><td>stomach</td><td>معدة</td></tr><tr><td>tonsill</td><td>tonsils</td><td>اللوزتين</td></tr><tr><td>neur/o</td><td>nerve</td><td>عصب</td></tr><tr><td>hepat/o</td><td>liver</td><td>كبد</td></tr><tr><td>arteri/o</td><td>artery</td><td>شريان</td></tr><tr><td>path</td><td>disease</td><td>مرض</td></tr><tr><td>nat</td><td>birth</td><td>ولادة</td></tr></tbody></table></div></div><div class="card"><div class="ctitle">2️⃣ Color Roots</div><div class="table-wrap"><table class="tbl"><thead><tr><th>Combining form</th><th>Meaning</th><th>بالعربي</th><th>Term</th></tr></thead><tbody><tr><td>cyan/o</td><td>blue</td><td>أزرق</td><td>Cyanosis</td></tr><tr><td>erythr/o</td><td>red</td><td>أحمر</td><td>Erythrocyte</td></tr><tr><td>leuk/o</td><td>white</td><td>أبيض</td><td>Leukocyte</td></tr><tr><td>melan/o</td><td>black</td><td>أسود</td><td>Melanosis</td></tr><tr><td>poli/o</td><td>gray</td><td>رمادي</td><td>Poliomyelitis</td></tr></tbody></table></div></div><div class="card"><div class="ctitle">3️⃣ Suffixes</div><div class="table-wrap"><table class="tbl"><thead><tr><th>Suffix</th><th>Meaning</th><th>بالعربي</th><th>Example</th></tr></thead><tbody><tr><td>-itis</td><td>inflammation</td><td>التهاب</td><td>Gastritis</td></tr><tr><td>-ectomy</td><td>surgical removal</td><td>استئصال جراحي</td><td>Tonsillectomy</td></tr><tr><td>-osis</td><td>abnormal condition or disease</td><td>حالة غير طبيعية أو مرض</td><td>Cyanosis</td></tr><tr><td>-cyte</td><td>cell</td><td>خلية</td><td>Erythrocyte</td></tr><tr><td>-plasty</td><td>surgical repair</td><td>إصلاح جراحي</td><td>Neuroplasty</td></tr><tr><td>-rrhaphy</td><td>surgical suturing</td><td>خياطة جراحية</td><td>Neurorrhaphy</td></tr><tr><td>-algia</td><td>pain and suffering</td><td>ألم ومعاناة</td><td>Gastralgia</td></tr><tr><td>-megaly</td><td>enlargement</td><td>تضخّم</td><td>Hepatomegaly</td></tr><tr><td>-necrosis</td><td>tissue death</td><td>موت الأنسجة</td><td>Arterionecrosis</td></tr><tr><td>-sclerosis</td><td>abnormal hardening</td><td>تصلّب غير طبيعي</td><td>Arteriosclerosis</td></tr><tr><td>-stenosis</td><td>abnormal narrowing</td><td>ضيق غير طبيعي</td><td>Arteriostenosis</td></tr><tr><td>-ology</td><td>study of</td><td>علم / دراسة</td><td>Pathology</td></tr><tr><td>-malacia</td><td>abnormal softening</td><td>لين غير طبيعي</td><td>—</td></tr></tbody></table></div></div><div class="card"><div class="ctitle">4️⃣ Prefixes</div><div class="table-wrap"><table class="tbl"><thead><tr><th>Prefix</th><th>Meaning</th><th>بالعربي</th><th>Example</th></tr></thead><tbody><tr><td>pre-</td><td>before</td><td>قبل</td><td>Prenatal</td></tr><tr><td>peri-</td><td>surrounding</td><td>حوالين</td><td>Perinatal</td></tr><tr><td>post-</td><td>after</td><td>بعد</td><td>Postnatal</td></tr><tr><td>ab-</td><td>away from</td><td>بعيد عن</td><td>Abnormal</td></tr><tr><td>ad-</td><td>toward or in the direction of</td><td>ناحية</td><td>Addiction</td></tr><tr><td>dys-</td><td>bad, difficult, or painful</td><td>سيّء أو صعب أو مؤلم</td><td>Dysfunctional</td></tr><tr><td>eu-</td><td>good, normal, well, or easy</td><td>جيّد أو طبيعي أو سهل</td><td>Eupnea</td></tr><tr><td>hyper-</td><td>excessive or increased</td><td>زيادة</td><td>Hypertension</td></tr><tr><td>hypo-</td><td>deficient or decreased</td><td>نقص</td><td>Hypotension</td></tr><tr><td>inter-</td><td>between or among</td><td>بين</td><td>Interstitial</td></tr><tr><td>intra-</td><td>within or inside</td><td>جوّه</td><td>Intramuscular</td></tr><tr><td>sub-</td><td>under, less, or below</td><td>تحت</td><td>Subcostal</td></tr><tr><td>super-, supra-</td><td>above or excessive</td><td>فوق أو زيادة</td><td>Supracostal</td></tr></tbody></table></div></div><div class="card"><div class="ctitle">5️⃣ Terms: Root + Suffix</div><div class="table-wrap"><table class="tbl"><thead><tr><th>Term</th><th>Analysis</th><th>Meaning</th><th>بالعربي</th></tr></thead><tbody><tr><td>Cyanosis</td><td>cyan/o + -osis</td><td>Blue discoloration of the skin caused by a lack of adequate oxygen in the blood</td><td>ازرقاق الجلد بسبب نقص الأكسجين في الدم</td></tr><tr><td>Erythrocyte</td><td>erythr/o + -cyte</td><td>A mature red blood cell</td><td>كرية دم حمراء ناضجة</td></tr><tr><td>Leukocyte</td><td>leuk/o + -cyte</td><td>A white blood cell</td><td>كرية دم بيضاء</td></tr><tr><td>Melanosis</td><td>melan/o + -osis</td><td>Any condition of unusual deposits of black pigment in body tissues or organs</td><td>ترسّب غير طبيعي للصبغة السوداء في الأنسجة أو الأعضاء</td></tr><tr><td>Poliomyelitis</td><td>poli/o + myel + -itis</td><td>A viral infection of the gray matter of the spinal cord</td><td>عدوى فيروسية في المادة الرمادية للنخاع الشوكي</td></tr><tr><td>Neuroplasty</td><td>neur/o + -plasty</td><td>Surgical repair of a nerve</td><td>إصلاح جراحي للعصب</td></tr><tr><td>Neurorrhaphy</td><td>neur/o + -rrhaphy</td><td>Suturing together the ends of a severed nerve</td><td>خياطة طرفي عصب مقطوع</td></tr><tr><td>Tonsillitis</td><td>tonsill + -itis</td><td>Inflammation of the tonsils</td><td>التهاب اللوزتين</td></tr><tr><td>Tonsillectomy</td><td>tonsill + -ectomy</td><td>Surgical removal of the tonsils</td><td>استئصال اللوزتين جراحيًا</td></tr><tr><td>Pathology</td><td>path + -ology</td><td>The study of all aspects of diseases</td><td>علم الأمراض</td></tr><tr><td>Gastralgia</td><td>gastr + -algia</td><td>Pain in the stomach</td><td>ألم في المعدة</td></tr><tr><td>Gastritis</td><td>gastr + -itis</td><td>Inflammation of the stomach</td><td>التهاب المعدة</td></tr><tr><td>Hepatomegaly</td><td>hepat/o + -megaly</td><td>Abnormal enlargement of the liver</td><td>تضخّم غير طبيعي في الكبد</td></tr><tr><td>Arterionecrosis</td><td>arteri/o + -necrosis</td><td>Tissue death of an artery or arteries</td><td>موت أنسجة الشريان أو الشرايين</td></tr><tr><td>Arteriosclerosis</td><td>arteri/o + -sclerosis</td><td>Abnormal hardening of the walls of an artery or arteries</td><td>تصلّب جدران الشرايين</td></tr><tr><td>Arteriostenosis</td><td>arteri/o + -stenosis</td><td>Abnormal narrowing of an artery or arteries</td><td>ضيق غير طبيعي في الشريان أو الشرايين</td></tr></tbody></table></div></div><div class="card"><div class="ctitle">6️⃣ Terms: Prefixes</div><div class="table-wrap"><table class="tbl"><thead><tr><th>Term</th><th>Prefix</th><th>Meaning</th><th>بالعربي</th></tr></thead><tbody><tr><td>Prenatal</td><td>pre- + nat</td><td>The time and events before birth</td><td>الفترة والأحداث قبل الولادة</td></tr><tr><td>Perinatal</td><td>peri- + nat</td><td>The time and events surrounding birth (just before, during, and just after birth)</td><td>الفترة والأحداث حوالين الولادة (قبلها مباشرة وأثناءها وبعدها مباشرة)</td></tr><tr><td>Postnatal</td><td>post- + nat</td><td>The time and events after birth</td><td>الفترة والأحداث بعد الولادة</td></tr><tr><td>Abnormal</td><td>ab-</td><td>Not normal or away from normal</td><td>غير طبيعي</td></tr><tr><td>Addiction</td><td>ad-</td><td>Drawn toward or a strong dependence on a drug or substance</td><td>انجذاب أو اعتماد شديد على دواء أو مادة</td></tr><tr><td>Dysfunctional</td><td>dys-</td><td>An organ or body part that is not working properly</td><td>عضو أو جزء من الجسم مش شغال صح</td></tr><tr><td>Eupnea</td><td>eu-</td><td>Easy or normal breathing</td><td>تنفس سهل أو طبيعي</td></tr><tr><td>Hypertension</td><td>hyper-</td><td>Higher-than-normal blood pressure</td><td>ارتفاع ضغط الدم</td></tr><tr><td>Hypotension</td><td>hypo-</td><td>Lower-than-normal blood pressure</td><td>انخفاض ضغط الدم</td></tr><tr><td>Interstitial</td><td>inter-</td><td>Between, but not within, the parts of a tissue</td><td>بين أجزاء النسيج مش جواها</td></tr><tr><td>Intramuscular</td><td>intra-</td><td>Within the muscle</td><td>داخل العضلة</td></tr><tr><td>Subcostal</td><td>sub-</td><td>Below a rib or ribs</td><td>تحت الضلع أو الأضلاع</td></tr><tr><td>Supracostal</td><td>supra-</td><td>Above or outside the ribs</td><td>فوق الأضلاع أو خارجها</td></tr></tbody></table></div></div><div class="card"><div class="ctitle">7️⃣ Often-Confused Pairs</div><div class="table-wrap"><table class="tbl"><thead><tr><th>Pair</th><th>Difference</th></tr></thead><tbody><tr><td>-necrosis / -sclerosis / -stenosis</td><td>موت أنسجة / تصلّب / ضيق</td></tr><tr><td>-itis / -osis</td><td>التهاب / حالة غير طبيعية أو مرض</td></tr><tr><td>-plasty / -rrhaphy</td><td>إصلاح جراحي / خياطة جراحية</td></tr><tr><td>-itis / -ectomy</td><td>التهاب / استئصال جراحي</td></tr><tr><td>hyper- / hypo-</td><td>زيادة / نقص</td></tr><tr><td>inter- / intra-</td><td>بين / جوّه</td></tr><tr><td>sub- / supra-</td><td>تحت / فوق</td></tr><tr><td>ab- / ad-</td><td>بعيد عن / ناحية</td></tr><tr><td>dys- / eu-</td><td>سيّء أو صعب / جيّد أو سهل</td></tr><tr><td>pre- / peri- / post-</td><td>قبل / حوالين / بعد</td></tr><tr><td>myel/o / my/o</td><td>نخاع شوكي / عضلة</td></tr></tbody></table></div></div><div class="card"><div class="ctitle">8️⃣ Definition → Term</div><div class="table-wrap"><table class="tbl"><thead><tr><th>Definition</th><th>Term</th></tr></thead><tbody><tr><td>Blue discoloration of the skin caused by a lack of adequate oxygen in the blood</td><td>Cyanosis</td></tr><tr><td>A mature red blood cell</td><td>Erythrocyte</td></tr><tr><td>A white blood cell</td><td>Leukocyte</td></tr><tr><td>Any condition of unusual deposits of black pigment in body tissues or organs</td><td>Melanosis</td></tr><tr><td>A viral infection of the gray matter of the spinal cord</td><td>Poliomyelitis</td></tr><tr><td>Surgical repair of a nerve</td><td>Neuroplasty</td></tr><tr><td>Suturing together the ends of a severed nerve</td><td>Neurorrhaphy</td></tr><tr><td>Inflammation of the tonsils</td><td>Tonsillitis</td></tr><tr><td>Surgical removal of the tonsils</td><td>Tonsillectomy</td></tr><tr><td>The study of all aspects of diseases</td><td>Pathology</td></tr><tr><td>Pain in the stomach</td><td>Gastralgia</td></tr><tr><td>Inflammation of the stomach</td><td>Gastritis</td></tr><tr><td>Abnormal enlargement of the liver</td><td>Hepatomegaly</td></tr><tr><td>Tissue death of an artery or arteries</td><td>Arterionecrosis</td></tr><tr><td>Abnormal hardening of the walls of an artery or arteries</td><td>Arteriosclerosis</td></tr><tr><td>Abnormal narrowing of an artery or arteries</td><td>Arteriostenosis</td></tr><tr><td>Not normal or away from normal</td><td>Abnormal</td></tr><tr><td>Drawn toward or a strong dependence on a drug or substance</td><td>Addiction</td></tr><tr><td>An organ or body part that is not working properly</td><td>Dysfunctional</td></tr><tr><td>Easy or normal breathing</td><td>Eupnea</td></tr><tr><td>Higher-than-normal blood pressure</td><td>Hypertension</td></tr><tr><td>Lower-than-normal blood pressure</td><td>Hypotension</td></tr><tr><td>Between, but not within, the parts of a tissue</td><td>Interstitial</td></tr><tr><td>Within the muscle</td><td>Intramuscular</td></tr><tr><td>Below a rib or ribs</td><td>Subcostal</td></tr><tr><td>Above or outside the ribs</td><td>Supracostal</td></tr></tbody></table></div></div>
+</div>
+
+<!-- ============ 3) QUIZ ============ -->
+<div class="quiz-section lec-view" id="view-quiz-lec2" style="display:none">
+  <h3>🧠 Interactive Quiz: Roots, Prefixes & Suffixes</h3>
+  <div class="quiz-meta"><span>30 Questions Available</span>اختار عدد الأسئلة:</div>
+  <div class="quiz-controls">
+    <select id="qcount-lec2">
+      <option value="5">5 Questions</option>
+      <option value="10">10 Questions</option>
+      <option value="15">15 Questions</option>
+      <option value="20">20 Questions</option>
+      <option value="30" selected>30 Questions (Full)</option>
+    </select>
+    <button class="btn-start" onclick="startQuiz('lec2')">▶ Start Quiz</button>
+  </div>
+  <div class="quiz-progress" id="progress-lec2"></div>
+  <div id="quiz-lec2" style="display:none"></div>
+  <div class="quiz-score" id="score-lec2"></div>
+</div>
+
+<!-- ============ CONNECT ============ -->
+<section class="connect" aria-labelledby="connectTitle">
+  <div class="connect-head">
+    <h3 id="connectTitle">💚 خلصت المحاضرة التانية، برافو عليك!</h3>
+    <p>دي كانت <b>المحاضرة التانية في <bdi dir='ltr'>Medical Terminology</bdi></b>: الجذور واللواحق والبوادئ. كل محاضرة بتيجيلك بنفس النظام: شرح مبسط، جداول للحفظ، وكويز تختبر بيه نفسك. كمّل. 🦷</p>
+  </div>
+  <div class="feat-grid">
+    <div class="feat"><b>📖 شرح بالعربي</b>كل جزء بيتشرح بلغة بسيطة مع الحفاظ على المصطلح الإنجليزي</div>
+    <div class="feat"><b>📋 جداول الحفظ</b>جداول مرتبة للمصطلحات والجذور والبوادئ للمراجعة قبل الاختبار</div>
+    <div class="feat"><b>❓ <bdi dir='ltr'>Quiz</bdi> تفاعلي</b><bdi dir='ltr'>30</bdi> سؤال <bdi dir='ltr'>MCQ</bdi> بتوضيح لكل إجابة</div>
+    <div class="feat"><b>🖨️ نسخة للطباعة</b>اطبع المحاضرة كـ <bdi dir='ltr'>PDF</bdi> جاهز للمذاكرة</div>
+  </div>
+  <div class="cta-row">
+    <a class="cta primary" href="https://t.me/+l4j2OcV7GophMTU0" target="_blank" rel="noopener">
+      <small>انضم لمجتمع الطلبة</small><strong>جروب <bdi dir='ltr'>FullMark</bdi> على تليجرام</strong><span class="cta-hint">انضم دلوقتي ←</span>
+    </a>
+    <a class="cta ghost" href="https://t.me/m84564694" target="_blank" rel="noopener" aria-label="Contact DR Mohamed on Telegram">
+      <small>محتاج مساعدة أو واجهتك مشكلة؟</small><strong class="dr-name" dir="ltr">DR <i class="dr-dot">●</i> Mohamed</strong><span class="cta-hint">كلمنا على تليجرام ←</span>
+    </a>
+  </div>
+</section>
+
+</div><!-- /wrap -->
+</div><!-- /lecture-lec2 -->
+
+
+<!-- ============ DUA POPUP ============ -->
+<div class="dua-overlay" id="duaOverlay" role="dialog" aria-modal="true" aria-labelledby="duaBasmala" aria-hidden="true">
+  <div class="dua-card" id="duaCard">
+    <button class="dua-x" id="duaX" type="button" aria-label="إغلاق">✕</button>
+
+    <div class="stg">
+      <div class="dua-ornament"><i></i><span>✦</span><i></i></div>
+      <p class="dua-basmala" id="duaBasmala">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+      <p class="dua-lead">ابدأ مذاكرتك باسم الله</p>
+    </div>
+
+    <div class="stg dua-block tawakkul">
+      <p class="ar big">تَوَكَّلْتُ عَلَى اللَّهِ</p>
+      <p class="ar">لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ الْعَلِيِّ الْعَظِيمِ</p>
+    </div>
+
+    <div class="stg">
+      <div class="dua-title">دعاء المذاكرة</div>
+    </div>
+
+    <div class="stg dua-block">
+      <p class="ar">رَبِّ اشْرَحْ لِي صَدْرِي<i class="vend" aria-hidden="true">٢٥</i> وَيَسِّرْ لِي أَمْرِي<i class="vend" aria-hidden="true">٢٦</i> وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي<i class="vend" aria-hidden="true">٢٧</i> يَفْقَهُوا قَوْلِي<i class="vend" aria-hidden="true">٢٨</i></p>
+      <div class="src">سورة طه · ٢٥ – ٢٨</div>
+    </div>
+
+    <div class="stg dua-block">
+      <p class="ar">وَقُل رَّبِّ زِدْنِي عِلْمًا</p>
+      <div class="src">سورة طه · ١١٤</div>
+    </div>
+
+    <div class="stg dua-block">
+      <p class="ar">حَسْبِيَ اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ</p>
+      <div class="src">سورة التوبة · ١٢٩</div>
+    </div>
+
+    <div class="stg">
+      <button class="dua-btn" id="duaGo" type="button"><span class="bl"><span>📖</span><span>يلا نبدأ… بالتوفيق</span></span></button>
+      <div class="dua-hint">اضغط في أي مكان بره الكارت أو <bdi dir='ltr'>Esc</bdi> للإغلاق</div>
+    </div>
+  </div>
+</div>
+
+<div class="ftr"><strong>FullMark</strong> · منصة التفوق الأكاديمي<br>Medical Terminology Study Atlas — Faculty of Dentistry</div>
+
+<script>
+const FULLMARK_LOGO = "data:image/webp;base64,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";
+document.querySelectorAll("img[data-logo]").forEach(i=>i.src = FULLMARK_LOGO);
+const LEC_PRINT_TITLES = { lec2: "Medical Terminology for Dentistry — Lecture 2 — Word Roots, Prefixes & Suffixes" };
+
+/* ===== HERO LETTERS ===== */
+(function(){
+  const el = document.getElementById('heroName'); if(!el) return;
+  el.innerHTML = 'FullMark'.split('').map((ch,i)=>`<span style="animation-delay:${(i*0.06).toFixed(2)}s">${ch}</span>`).join('');
+})();
+
+
+/* ===== DUA POPUP: appears ONCE when the student scrolls down to the lecture ===== */
+(function(){
+  const ov = document.getElementById('duaOverlay'); if(!ov) return;
+  const card = document.getElementById('duaCard');
+  const target = document.getElementById('introBlock') || document.querySelector('.lec-divider');
+  let shown = false, lastFocus = null;
+
+  function open(){
+    if(shown) return; shown = true;
+    lastFocus = document.activeElement;
+    ov.setAttribute('aria-hidden','false');
+    ov.classList.add('show');
+    document.body.classList.add('dua-open');
+    setTimeout(()=>{ card.setAttribute('tabindex','-1'); card.focus({preventScroll:true}); }, 350);
+    stopWatching();
+  }
+  function close(){
+    ov.classList.remove('show');
+    ov.setAttribute('aria-hidden','true');
+    document.body.classList.remove('dua-open');
+    if(lastFocus && lastFocus.focus) try{ lastFocus.focus({preventScroll:true}); }catch(e){}
+  }
+
+  // ---- when? -> as soon as the top of the lecture block reaches the upper part of the screen ----
+  let io = null, onScroll = null;
+  function stopWatching(){ if(io){ io.disconnect(); io=null; } if(onScroll){ window.removeEventListener('scroll', onScroll); onScroll=null; } }
+  if(target && 'IntersectionObserver' in window){
+    io = new IntersectionObserver(entries=>{
+      entries.forEach(e=>{ if(e.isIntersecting && window.scrollY > 40) open(); });
+    }, { root:null, rootMargin:'0px 0px -35% 0px', threshold:0 });
+    io.observe(target);
+  } else {
+    // fallback for very old browsers
+    onScroll = ()=>{ if(target && target.getBoundingClientRect().top < window.innerHeight*0.65 && window.scrollY>40) open(); };
+    window.addEventListener('scroll', onScroll, {passive:true});
+  }
+
+  // ---- closing ----
+  document.getElementById('duaX').addEventListener('click', close);
+  document.getElementById('duaGo').addEventListener('click', close);
+  ov.addEventListener('click', e=>{ if(!card.contains(e.target)) close(); });
+  document.addEventListener('keydown', e=>{
+    if(!ov.classList.contains('show')) return;
+    if(e.key==='Escape') close();
+    if(e.key==='Tab'){   // keep focus inside the dialog
+      const f = card.querySelectorAll('button'); if(!f.length) return;
+      const first=f[0], last=f[f.length-1];
+      if(e.shiftKey && document.activeElement===first){ e.preventDefault(); last.focus(); }
+      else if(!e.shiftKey && document.activeElement===last){ e.preventDefault(); first.focus(); }
+    }
+  });
+})();
+
+/* ===== NAVIGATION ===== */
+function showView(view, lec, btn){
+  ['content','tables','quiz'].forEach(v=>{
+    const el = document.getElementById('view-' + v + '-' + lec);
+    if(el) el.style.display = (v===view) ? 'block' : 'none';
+  });
+  if(btn){
+    btn.parentElement.querySelectorAll('.lsn-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+  }
+  const ib = document.getElementById('introBlock'); if(ib) ib.style.display = (view==='content') ? 'block' : 'none';
+  const hero = document.querySelector('.hero'); if(hero) hero.classList.toggle('compact', view!=='content');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function switchLecture(lec, btn){ window.scrollTo({top:0,behavior:'smooth'}); buildPrintArea(lec); }
+
+
+/* ===== QUIZ DATA ===== */
+const QUIZDATA = {
+  lec2:[
+ {
+  "q": "The term _____ describes any pathologic change or disease in the muscle.",
+  "opts": [
+   "myelopathy",
+   "myopathy",
+   "pyelitis",
+   "pyrosis"
+  ],
+  "ans": 1,
+  "exp": "<b>Myopathy</b> = مرض في العضلة (my/o عضلة + pathy مرض). أما <b>myelopathy</b> فخاصة بالنخاع الشوكي."
+ },
+ {
+  "q": "The term _____ describes any pathologic change or disease in the spinal cord.",
+  "opts": [
+   "myelopathy",
+   "myopathy",
+   "pyelitis",
+   "pyrosis"
+  ],
+  "ans": 0,
+  "exp": "<b>Myelopathy</b> = مرض في النخاع الشوكي (myel/o نخاع شوكي). فرّق بين <b>myel/o</b> و<b>my/o</b>."
+ },
+ {
+  "q": "The medical term for higher-than-normal blood pressure is _____.",
+  "opts": [
+   "hepatomegaly",
+   "hypertension",
+   "hypotension",
+   "supination"
+  ],
+  "ans": 1,
+  "exp": "<b>hyper-</b> = زيادة، يعني <b>Hypertension</b> = ارتفاع ضغط الدم."
+ },
+ {
+  "q": "The medical term for lower-than-normal blood pressure is _____.",
+  "opts": [
+   "hepatomegaly",
+   "hypertension",
+   "hypotension",
+   "supination"
+  ],
+  "ans": 2,
+  "exp": "<b>hypo-</b> = نقص، يعني <b>Hypotension</b> = انخفاض ضغط الدم."
+ },
+ {
+  "q": "The term _____ means pertaining to birth.",
+  "opts": [
+   "natal",
+   "perinatal",
+   "postnatal",
+   "prenatal"
+  ],
+  "ans": 0,
+  "exp": "<b>Natal</b> = متعلق بالولادة، وبتتحط قبلها pre- أو peri- أو post- عشان تحدد الوقت."
+ },
+ {
+  "q": "The time and events after birth means _____.",
+  "opts": [
+   "natal",
+   "perinatal",
+   "postnatal",
+   "prenatal"
+  ],
+  "ans": 2,
+  "exp": "<b>post-</b> = بعد، فـ <b>Postnatal</b> = بعد الولادة."
+ },
+ {
+  "q": "The time and events surrounding birth means _____.",
+  "opts": [
+   "natal",
+   "perinatal",
+   "postnatal",
+   "prenatal"
+  ],
+  "ans": 1,
+  "exp": "<b>peri-</b> = حوالين، فـ <b>Perinatal</b> = الفترة حوالين الولادة."
+ },
+ {
+  "q": "The term _____ means loss of a large amount of blood in a short time.",
+  "opts": [
+   "diarrhea",
+   "hemorrhage",
+   "hepatorrhagia",
+   "otorrhagia"
+  ],
+  "ans": 1,
+  "exp": "<b>Hemorrhage</b> = نزيف: فقد كمية كبيرة من الدم في وقت قصير."
+ },
+ {
+  "q": "The term _____ means below the ribs.",
+  "opts": [
+   "intramuscular",
+   "interstitial",
+   "supracostal",
+   "subcostal"
+  ],
+  "ans": 3,
+  "exp": "<b>sub-</b> = تحت، فـ <b>Subcostal</b> = تحت الضلع أو الأضلاع."
+ },
+ {
+  "q": "The term _____ means above or outside the ribs.",
+  "opts": [
+   "intramuscular",
+   "interstitial",
+   "supracostal",
+   "subcostal"
+  ],
+  "ans": 2,
+  "exp": "<b>supra-</b> = فوق، فـ <b>Supracostal</b> = فوق الأضلاع أو خارجها."
+ },
+ {
+  "q": "The term _____ means within or inside the muscle.",
+  "opts": [
+   "intramuscular",
+   "interstitial",
+   "supracostal",
+   "subcostal"
+  ],
+  "ans": 0,
+  "exp": "<b>intra-</b> = جوّه، فـ <b>Intramuscular</b> = داخل العضلة."
+ },
+ {
+  "q": "The term _____ means the tissue death of an artery or arteries.",
+  "opts": [
+   "arteriomalacia",
+   "arterionecrosis",
+   "arteriosclerosis",
+   "arteriostenosis"
+  ],
+  "ans": 1,
+  "exp": "<b>-necrosis</b> = موت الأنسجة، فـ <b>Arterionecrosis</b> = موت أنسجة الشريان."
+ },
+ {
+  "q": "The abnormal narrowing of an artery or arteries is _____.",
+  "opts": [
+   "arteriomalacia",
+   "arterionecrosis",
+   "arteriosclerosis",
+   "arteriostenosis"
+  ],
+  "ans": 3,
+  "exp": "<b>-stenosis</b> = ضيق غير طبيعي، فـ <b>Arteriostenosis</b>."
+ },
+ {
+  "q": "The abnormal hardening of the walls of an artery or arteries is _____.",
+  "opts": [
+   "arteriomalacia",
+   "arterionecrosis",
+   "arteriosclerosis",
+   "arteriostenosis"
+  ],
+  "ans": 2,
+  "exp": "<b>-sclerosis</b> = تصلّب غير طبيعي، فـ <b>Arteriosclerosis</b>."
+ },
+ {
+  "q": "A white blood cell is known as _____.",
+  "opts": [
+   "melanosis",
+   "erythrocyte",
+   "leukocyte",
+   "cyanosis"
+  ],
+  "ans": 2,
+  "exp": "<b>leuk/o</b> = أبيض + <b>-cyte</b> = خلية، فـ <b>Leukocyte</b>."
+ },
+ {
+  "q": "_____ is suturing together the ends of a severed nerve.",
+  "opts": [
+   "Neuroplasty",
+   "Neurorrhaphy",
+   "Tonsillitis",
+   "Tonsillectomy"
+  ],
+  "ans": 1,
+  "exp": "<b>-rrhaphy</b> = خياطة جراحية، فـ <b>Neurorrhaphy</b> = خياطة طرفي عصب مقطوع."
+ },
+ {
+  "q": "_____ is the surgical repair of a nerve.",
+  "opts": [
+   "Neuroplasty",
+   "Neurorrhaphy",
+   "Tonsillitis",
+   "Tonsillectomy"
+  ],
+  "ans": 0,
+  "exp": "<b>-plasty</b> = إصلاح جراحي، فـ <b>Neuroplasty</b> = إصلاح جراحي للعصب."
+ },
+ {
+  "q": "_____ is the surgical removal of tonsils.",
+  "opts": [
+   "Neuroplasty",
+   "Neurorrhaphy",
+   "Tonsillitis",
+   "Tonsillectomy"
+  ],
+  "ans": 3,
+  "exp": "<b>-ectomy</b> = استئصال جراحي، فـ <b>Tonsillectomy</b>. أما <b>Tonsillitis</b> فالتهاب."
+ },
+ {
+  "q": "The term _____ means between muscles.",
+  "opts": [
+   "interstitial",
+   "intrastitial",
+   "intermuscular",
+   "intramuscular"
+  ],
+  "ans": 2,
+  "exp": "<b>inter-</b> = بين، فـ <b>Intermuscular</b> = بين العضلات. و<b>Intramuscular</b> = جوّه العضلة."
+ },
+ {
+  "q": "_____ means drawn toward or strong dependence on a drug or substance.",
+  "opts": [
+   "Cyanosis",
+   "Poliomyelitis",
+   "Melanosis",
+   "Addiction"
+  ],
+  "ans": 3,
+  "exp": "<b>ad-</b> = ناحية، و<b>Addiction</b> = انجذاب أو اعتماد شديد على دواء أو مادة."
+ },
+ {
+  "q": "_____ is a viral infection of the gray matter of the spinal cord.",
+  "opts": [
+   "Cyanosis",
+   "Poliomyelitis",
+   "Melanosis",
+   "Addiction"
+  ],
+  "ans": 1,
+  "exp": "<b>poli/o</b> رمادي + <b>myel</b> نخاع شوكي + <b>-itis</b> التهاب."
+ },
+ {
+  "q": "The term _____ means enlargement of the kidney.",
+  "opts": [
+   "nephritis",
+   "nephromegaly",
+   "hepatomegaly",
+   "hepatitis"
+  ],
+  "ans": 1,
+  "exp": "<b>nephr/o</b> = كلية + <b>-megaly</b> = تضخّم."
+ },
+ {
+  "q": "The term _____ means enlargement of the liver.",
+  "opts": [
+   "nephritis",
+   "nephromegaly",
+   "hepatomegaly",
+   "hepatitis"
+  ],
+  "ans": 2,
+  "exp": "<b>hepat/o</b> = كبد + <b>-megaly</b> = تضخّم."
+ },
+ {
+  "q": "The term _____ means inflammation of the liver.",
+  "opts": [
+   "nephritis",
+   "nephromegaly",
+   "hepatomegaly",
+   "hepatitis"
+  ],
+  "ans": 3,
+  "exp": "<b>hepat/o</b> = كبد + <b>-itis</b> = التهاب."
+ },
+ {
+  "q": "The term _____ means an organ or body part that is not working properly.",
+  "opts": [
+   "Hypertension",
+   "Supracostal",
+   "Dysfunctional",
+   "Eupnea"
+  ],
+  "ans": 2,
+  "exp": "<b>dys-</b> = سيّء أو صعب أو مؤلم، فـ <b>Dysfunctional</b>."
+ },
+ {
+  "q": "The term _____ means easy or normal breathing.",
+  "opts": [
+   "Hypertension",
+   "Supracostal",
+   "Dysfunctional",
+   "Eupnea"
+  ],
+  "ans": 3,
+  "exp": "<b>eu-</b> = جيّد أو طبيعي أو سهل، فـ <b>Eupnea</b>."
+ },
+ {
+  "q": "_____ is any condition of unusual deposits of black pigment in body tissues or organs.",
+  "opts": [
+   "Melanosis",
+   "Erythrocyte",
+   "Leukocyte",
+   "Cyanosis"
+  ],
+  "ans": 0,
+  "exp": "<b>melan/o</b> = أسود + <b>-osis</b> = حالة غير طبيعية."
+ },
+ {
+  "q": "A mature red blood cell is known as _____.",
+  "opts": [
+   "Leukocyte",
+   "Erythrocyte",
+   "Melanosis",
+   "Poliomyelitis"
+  ],
+  "ans": 1,
+  "exp": "<b>erythr/o</b> = أحمر + <b>-cyte</b> = خلية."
+ },
+ {
+  "q": "The term _____ means pain or suffering in the stomach.",
+  "opts": [
+   "pathology",
+   "Gastralgia",
+   "Tonsillitis",
+   "Gastritis"
+  ],
+  "ans": 1,
+  "exp": "<b>gastr</b> = معدة + <b>-algia</b> = ألم."
+ },
+ {
+  "q": "The term _____ means inflammation of the stomach.",
+  "opts": [
+   "pathology",
+   "Gastralgia",
+   "Tonsillitis",
+   "Gastritis"
+  ],
+  "ans": 3,
+  "exp": "<b>gastr</b> = معدة + <b>-itis</b> = التهاب."
+ }
+]
+};
+
+/* ===== QUIZ ENGINE  ===== */
+function getQCount(lecId) {
+  const sel = document.getElementById('qcount-' + lecId);
+  return sel ? parseInt(sel.value) : 10;
+}
+
+function shuffleArray(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+const quizState = {};
+
+function startQuiz(lecId) {
+  const count = getQCount(lecId);
+  const qs = QUIZDATA[lecId];
+  const order = shuffleArray([...Array(qs.length).keys()]).slice(0, count);
+  quizState[lecId] = { current: 0, score: 0, answered: new Array(count).fill(false), order };
+  renderQuiz(lecId);
+}
+
+function renderQuiz(lecId) {
+  const state = quizState[lecId];
+  const container = document.getElementById('quiz-' + lecId);
+  const scoreDiv = document.getElementById('score-' + lecId);
+  const progressDiv = document.getElementById('progress-' + lecId);
+  if (!state) return;
+  if (state.current >= state.order.length) { showScore(lecId); return; }
+  container.style.display = 'block';
+  scoreDiv.classList.remove('show');
+  const qi = state.order[state.current];
+  const q = QUIZDATA[lecId][qi];
+  const total = state.order.length;
+  const pct = Math.round((state.current / total) * 100);
+  progressDiv.innerHTML = `<div class="progress-bar-wrap"><div class="progress-bar-fill" style="width:${pct}%"></div></div><div class="progress-text">Question ${state.current + 1} of ${total} &nbsp;|&nbsp; Score: ${state.score}</div>`;
+  const letters = ['A','B','C','D'];
+  const optsHtml = q.opts.map((opt, i) => `<button class="qopt" onclick="selectAnswer('${lecId}',${i})" id="opt-${lecId}-${i}">${letters[i]}. ${opt}</button>`).join('');
+  container.innerHTML = `<div class="qcard"><div class="qnum">Question ${state.current + 1} / ${total}</div><div class="qtext">${q.q}</div><div class="qopts">${optsHtml}</div><div class="explanation" id="expl-${lecId}">${q.exp}</div></div><div style="margin-top:14px"><button class="btn-start" id="next-${lecId}" onclick="nextQuestion('${lecId}')" style="display:none">Next Question →</button></div>`;
+}
+
+function selectAnswer(lecId, chosen) {
+  const state = quizState[lecId];
+  if (state.answered[state.current]) return;
+  state.answered[state.current] = true;
+  const qi = state.order[state.current];
+  const q = QUIZDATA[lecId][qi];
+  const correct = q.ans;
+  for (let i = 0; i < q.opts.length; i++) {
+    const btn = document.getElementById('opt-' + lecId + '-' + i);
+    btn.classList.add('disabled'); btn.onclick = null;
+    if (i === correct) btn.classList.add('correct');
+    else if (i === chosen && chosen !== correct) btn.classList.add('wrong');
+  }
+  if (chosen === correct) state.score++;
+  const expl = document.getElementById('expl-' + lecId);
+  if (expl) expl.classList.add('show');
+  const nextBtn = document.getElementById('next-' + lecId);
+  if (nextBtn) nextBtn.style.display = 'inline-flex';
+}
+
+function nextQuestion(lecId) {
+  quizState[lecId].current++;
+  renderQuiz(lecId);
+}
+
+function showScore(lecId) {
+  const state = quizState[lecId];
+  const total = state.order.length;
+  const pct = Math.round((state.score / total) * 100);
+  const color = pct >= 80 ? '#34d399' : pct >= 60 ? '#e8b34c' : '#f0645c';
+  const msg = pct >= 80 ? '🏆 Excellent! Outstanding performance!' : pct >= 60 ? '👍 Good effort! Review weak areas.' : '📚 Keep studying — you can do it!';
+  document.getElementById('quiz-' + lecId).style.display = 'none';
+  document.getElementById('progress-' + lecId).innerHTML = '';
+  const scoreDiv = document.getElementById('score-' + lecId);
+  scoreDiv.classList.add('show');
+  scoreDiv.innerHTML = `<div class="score-circle" style="border-color:${color};color:${color}"><span class="score-num">${state.score}</span><span class="score-denom">/ ${total}</span></div><div class="score-msg" style="color:${color}">${msg}</div><div class="score-sub">${pct}% — ${state.score} correct out of ${total} questions</div><div style="margin-top:18px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap"><button onclick="startQuiz('${lecId}')" class="btn-start">🔄 Retry Quiz</button></div>`;
+}
+
+/* ===== PRINT VERSION ===== */
+function buildPrintArea(lecId){
+  lecId = lecId || 'lec2';
+  const get = (part)=>{ const el = document.getElementById('view-' + part + '-' + lecId); return el ? el.innerHTML : ''; };
+  const letters = ['A','B','C','D'];
+  const quizHTML = (QUIZDATA[lecId]||[]).map((q,i)=>`
+    <div class="print-mcq-item">
+      <div class="print-q">${i+1}. ${q.q}</div>
+      <div class="print-opts">${q.opts.map((opt,idx)=>`<div class="print-opt">${letters[idx]}. ${opt}</div>`).join('')}</div>
+    </div>`).join('');
+  const plainTitle = LEC_PRINT_TITLES[lecId] || lecId;
+  document.title = 'FullMark — ' + plainTitle;
+  let el = document.getElementById('printArea');
+  if(!el){ el = document.createElement('div'); el.id = 'printArea'; document.body.appendChild(el); }
+  el.innerHTML = `
+    <div class="print-watermark"><img src="${FULLMARK_LOGO}" alt=""></div>
+    <div class="print-header">
+      <div class="print-brand">FullMark — Study Atlas</div>
+      <h1>Medical Terminology · Lecture 2</h1>
+      <div class="print-sub">${plainTitle}</div>
+    </div>
+    <div class="print-section">
+      <h2 class="print-h2">📖 الشرح — Explanation</h2>
+      ${get('content')}
+    </div>
+    <div class="print-section">
+      <h2 class="print-h2">📋 جداول الحفظ — Memorization Tables</h2>
+      ${get('tables')}
+    </div>
+    <div class="print-section">
+      <h2 class="print-h2">❓ MCQ Bank (no answers)</h2>
+      ${quizHTML}
+    </div>
+    <div class="print-footer"><b>FullMark</b> &nbsp;·&nbsp; <bdi>منصة التفوق الأكاديمي</bdi> &nbsp;·&nbsp; <bdi dir="ltr">4.0 GPA</bdi></div>`;
+}
+buildPrintArea('lec2');
+</script>
+</body>
+</html>
